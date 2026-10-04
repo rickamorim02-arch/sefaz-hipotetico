@@ -1,4 +1,4 @@
-const CACHE='sefaz-hipotetico-offline-v6';
+const CACHE='sefaz-hipotetico-offline-v7';
 const CORE=['./','./index.html','./manifest.webmanifest','./tablet.css','./performance.js','./sharded-bank.js','./filter-visibility.js','./offline.js','./backup.js','./cycle-timer.js','./questions-manifest.json'];
 async function cacheOne(c,url,required=true){try{const r=await fetch(url,{cache:'reload'});if(!r||!r.ok){if(required)throw new Error(String(r&&r.status));return false}await c.put(url,r.clone());return true}catch(e){if(required)throw e;return false}}
 async function questionFiles(){try{const r=await fetch('./questions-manifest.json',{cache:'reload'});if(!r.ok)return[];const m=await r.clone().json();const c=await caches.open(CACHE);await c.put('./questions-manifest.json',r);return Array.isArray(m.parts)?m.parts.map(x=>'./'+x.file):[]}catch(_){return[]}}
