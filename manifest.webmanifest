@@ -1,0 +1,8 @@
+{
+  "name": "Concurso Shorts SEFAZ-Hipotético",
+  "short_name": "SEFAZ-Hipotético",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#06131f",
+  "theme_color": "#071b2d"
+}
