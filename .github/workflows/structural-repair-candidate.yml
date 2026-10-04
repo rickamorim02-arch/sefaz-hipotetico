@@ -1,0 +1,43 @@
+name: Candidato de reparo estrutural
+
+'on':
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/build_structural_candidate.py
+      - REPAIR_TRIGGER.txt
+
+permissions:
+  contents: write
+
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar candidato sem alterar banco publicado
+        run: python tools/build_structural_candidate.py .
+      - name: Validar invariantes
+        run: |
+          python - <<'PY'
+          import json
+          a=json.load(open('questions.json',encoding='utf-8'))
+          b=json.load(open('questions-candidate.json',encoding='utf-8'))
+          r=json.load(open('structural-repair-report.json',encoding='utf-8'))
+          assert len(a)==len(b)==8635
+          assert [x['id'] for x in a]==[x['id'] for x in b]
+          assert r['falhas_originais']==385
+          assert r['corrigidas_conservadoramente']+r['pendentes_de_pesquisa_ou_contexto']==385
+          print('CANDIDATO ISOLADO VALIDADO')
+          PY
+      - name: Publicar somente candidato e relatório
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add questions-candidate.json structural-repair-report.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Gera candidato isolado de reparo estrutural'
+          git push
