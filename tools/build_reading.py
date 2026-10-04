@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# build revision: audit-255-v2
 import json,re,sys,unicodedata,zipfile,shutil
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -18,7 +19,6 @@ def docx_paragraphs(path):
   if t: out.append(t)
  return out
 def split_sources(subject,pars):
- # A compilação marca cada fonte real com um título de Aula seguido de "Fonte:".
  starts=[]
  for i,p in enumerate(pars[:-1]):
   if re.match(r'^Aula\s+(?:\d{1,3}|única|unica)\b',p,re.I) and pars[i+1].startswith('Fonte:'):
