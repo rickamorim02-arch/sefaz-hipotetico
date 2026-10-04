@@ -1,9 +1,10 @@
-name: Gerar base de leitura V2
+name: Gerar e auditar base de leitura V2
 on:
   workflow_dispatch:
   push:
     paths:
       - 'source/Compilacao_SEFAZ_AL_Auditada_V2.zip'
+      - 'tools/build_reading.py'
 permissions:
   contents: write
 jobs:
@@ -16,27 +17,37 @@ jobs:
           python-version: '3.12'
       - name: Gerar arquivos por disciplina
         run: |
+          rm -rf reading-build
           python tools/build_reading.py source/Compilacao_SEFAZ_AL_Auditada_V2.zip reading-build
           cp reading-build/reading-*.json .
           cp reading-build/reading-manifest.json .
-      - name: Validar
+      - name: Auditar estrutura e integridade
         run: |
           python - <<'PY'
-          import json,glob
+          import json, pathlib, re
           m=json.load(open('reading-manifest.json',encoding='utf-8'))
-          assert len(m)==19, len(m)
-          files=glob.glob('reading-*.json')
-          assert len(files)>=20, len(files)
+          assert len(m)==19, f'Disciplinas: {len(m)} != 19'
+          total=0
+          bad=[]
+          mojibake=re.compile(r'[├┬]')
           for x in m:
-              d=json.load(open(x['file'],encoding='utf-8'))
-              assert d and all(r.get('subject')==x['subject'] for r in d)
-          print('OK: 19 disciplinas validadas')
+              assert not mojibake.search(x['subject']), f'Nome corrompido: {x["subject"]}'
+              p=pathlib.Path(x['file'])
+              assert p.exists(), f'Arquivo ausente: {p}'
+              d=json.load(open(p,encoding='utf-8'))
+              assert len(d)==x['lessons'], (x['subject'],len(d),x['lessons'])
+              assert d, f'Vazio: {x["subject"]}'
+              assert all(r.get('subject')==x['subject'] for r in d), x['subject']
+              assert all(r.get('lesson') and r.get('text') for r in d), x['subject']
+              total += len(d)
+          assert total==255, f'Fontes/aulas: {total} != 255'
+          print(f'APROVADO: {len(m)} disciplinas; {total} fontes/aulas; nomes e JSON íntegros')
           PY
-      - name: Publicar base gerada
+      - name: Publicar base aprovada
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add reading-*.json reading-manifest.json
           git diff --cached --quiet && exit 0
-          git commit -m 'Gera base de leitura V2 por disciplina'
+          git commit -m 'Regenera base V2 auditada: 19 disciplinas e 255 fontes'
           git push
