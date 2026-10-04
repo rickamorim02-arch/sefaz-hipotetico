@@ -7,6 +7,7 @@ on:
       - 'tools/shard_questions.py'
       - 'tools/audit_restructure_questions.py'
       - 'tools/audit_20_workers.py'
+      - 'AUDIT_TRIGGER.txt'
       - 'reading-manifest.json'
       - 'reading-*.json'
 permissions:
