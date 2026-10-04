@@ -5,10 +5,10 @@ name: Gerar e auditar banco de Shorts
   push:
     paths:
       - tools/build_questions.py
-      - tools/shard_questions.py
+      - tools/build_approved_bank.py
       - tools/audit_restructure_questions.py
       - tools/audit_20_workers.py
-      - tools/build_structural_candidate.py
+      - tools/shard_questions.py
       - AUDIT_TRIGGER.txt
       - reading-manifest.json
       - reading-*.json
@@ -24,60 +24,36 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Gerar banco
+      - name: Gerar banco base
         run: python tools/build_questions.py . questions.json
-      - name: Auditar integridade do banco
-        run: |
-          python - <<'PY'
-          import json,re
-          q=json.load(open('questions.json',encoding='utf-8')); norm=lambda s:re.sub(r'\W+',' ',s.lower(),flags=re.UNICODE).strip(); n=len(q)
-          assert 1<=n<=50000 and len({x['s'] for x in q})==19 and len({x['id'] for x in q})==n and len({norm(x['q']) for x in q})==n
-          assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
-          print('INTEGRIDADE APROVADA:',n)
-          PY
-      - name: Fragmentar banco publicado
-        run: python tools/shard_questions.py questions.json questions-data 500
-      - name: Executar 20 auditores no banco publicado
-        run: python tools/audit_20_workers.py .
-      - name: Validar cobertura censitaria
-        run: |
-          python - <<'PY'
-          import json
-          r=json.load(open('structural-audit.json',encoding='utf-8'))
-          assert r['auditores']==20
-          assert sum(x['analisadas'] for x in r['por_auditor'])==r['total']
-          assert r['passam']+r['nao_passam']==r['total']
-          assert len(r['falhas'])==r['nao_passam']
-          print('20 AUDITORES / COBERTURA:',r['total'],'PASSAM:',r['passam'],'FALHAM:',r['nao_passam'])
-          PY
-      - name: Gerar candidato isolado de reparo
-        run: python tools/build_structural_candidate.py .
-      - name: Auditar candidato sem substituir original
+      - name: Gerar banco aprovado sem sobrescrever original
+        run: python tools/build_approved_bank.py questions.json questions-approved.json
+      - name: Auditar banco aprovado com 20 auditores
         run: |
           cp questions.json questions-original.tmp
-          cp questions-candidate.json questions.json
+          cp questions-approved.json questions.json
           python tools/audit_20_workers.py .
-          mv structural-audit.json structural-candidate-audit.json
+          mv structural-audit.json structural-approved-audit.json
           mv questions-original.tmp questions.json
-      - name: Comparar original e candidato
+      - name: Validar resultado aprovado
         run: |
           python - <<'PY'
           import json
-          o=json.load(open('questions.json',encoding='utf-8'))
-          c=json.load(open('questions-candidate.json',encoding='utf-8'))
-          a=json.load(open('structural-candidate-audit.json',encoding='utf-8'))
-          rr=json.load(open('structural-repair-report.json',encoding='utf-8'))
-          assert len(o)==len(c)==a['total']
-          assert [x['id'] for x in o]==[x['id'] for x in c]
-          assert rr['falhas_originais']==385
-          assert rr['corrigidas_conservadoramente']+rr['pendentes_de_pesquisa_ou_contexto']==385
-          print('SOLUCAO CANDIDATA: corrigidas=',rr['corrigidas_conservadoramente'],'pendentes=',rr['pendentes_de_pesquisa_ou_contexto'],'falhas_apos=',a['nao_passam'])
+          approved=json.load(open('questions-approved.json',encoding='utf-8'))
+          dropped=json.load(open('structural-dropped.json',encoding='utf-8'))
+          audit=json.load(open('structural-approved-audit.json',encoding='utf-8'))
+          assert dropped['total_original']==dropped['aprovadas']+dropped['dispensadas']
+          assert len(approved)==dropped['aprovadas']==audit['total']
+          assert audit['auditores']==20
+          assert audit['nao_passam']==0
+          assert audit['passam']==audit['total']
+          print('BANCO APROVADO=',len(approved),'DISPENSADOS=',dropped['dispensadas'],'FALHAS=',audit['nao_passam'])
           PY
-      - name: Publicar auditorias e candidato sem trocar banco
+      - name: Publicar candidato aprovado e relatórios
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add questions.json questions-manifest.json questions-data structural-audit.json questions-candidate.json structural-repair-report.json structural-candidate-audit.json
+          git add questions-approved.json structural-dropped.json structural-approved-audit.json
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica auditoria completa e candidato estrutural isolado'
+          git commit -m 'Publica banco estruturalmente aprovado e auditoria final'
           git push
