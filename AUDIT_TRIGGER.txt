@@ -1,4 +1,4 @@
-Disparo do banco estruturalmente aprovado.
+Disparo da publicação fragmentada validada.
 Data: 2026-10-04
-Objetivo: gerar questions-approved.json, dispensar os reprovados e validar o banco resultante com 20 auditores, exigindo zero falhas.
-Tentativa: 5 — workflow existente atualizado e reconhecido.
+Objetivo: manter 8250 Shorts aprovados, dispensar 385, gerar 17 fragmentos diretamente do banco aprovado e exigir sincronização total com a auditoria dos 20 auditores.
+Tentativa: 6 — promoção pela camada questions-data, sem substituir questions.json.
