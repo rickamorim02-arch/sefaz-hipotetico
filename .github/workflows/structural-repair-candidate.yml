@@ -6,6 +6,7 @@ name: Candidato de reparo estrutural
     paths:
       - tools/build_structural_candidate.py
       - REPAIR_TRIGGER.txt
+      - .github/workflows/structural-repair-candidate.yml
 
 permissions:
   contents: write
