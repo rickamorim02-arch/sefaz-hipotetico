@@ -1,4 +1,4 @@
 Disparo da auditoria estrutural censitária.
 Data: 2026-10-04
-Objetivo: executar 20 auditores sobre toda a população e publicar structural-audit.json.
-Tentativa: 3 — após correção/regravação do workflow YAML.
+Objetivo: executar 20 auditores sobre toda a população, gerar candidato isolado, auditar novamente o candidato e comparar resultados sem substituir o banco publicado.
+Tentativa: 4 — solução integrada ao workflow reconhecido.
