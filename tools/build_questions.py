@@ -1,30 +1,24 @@
 #!/usr/bin/env python3
-# Banco V2: até 30.000 itens CERTO baseados diretamente na Compilação Auditada V2.
+# Banco V2: até 50.000 itens CERTO baseados diretamente na Compilação Auditada V2.
 # Regra conservadora: não inventar negações; cada item preserva uma afirmação textual da fonte.
 import json,re,sys,hashlib
 from pathlib import Path
-TARGET=30000
+TARGET=50000
 
 def clean(s): return re.sub(r'\s+',' ',str(s or '')).strip()
 def normalize(s): return re.sub(r'\W+',' ',clean(s).lower(),flags=re.UNICODE).strip()
 def candidates(text):
- text=clean(str(text or '').replace('\n',' '))
- parts=re.split(r'(?<=[.!?;])\s+',text)
- out=[]
+ text=clean(str(text or '').replace('\n',' ')); parts=re.split(r'(?<=[.!?;])\s+',text); out=[]
  bad=('fonte:','aula ','questões comentadas','questoes comentadas','sumário','sumario','gabarito','resolução','resolucao')
  for s in parts:
   s=clean(s); lo=s.lower()
-  if not (45<=len(s)<=520): continue
-  if lo.startswith(bad): continue
-  if re.match(r'^[\d\W_]+$',s): continue
-  if s.count(' ')<7: continue
+  if not (45<=len(s)<=520) or lo.startswith(bad) or re.match(r'^[\d\W_]+$',s) or s.count(' ')<7: continue
   if re.search(r'\b(julgue|assinale|marque|considere os itens|responda)\b',lo) and len(s)<120: continue
   out.append(s)
  return out
 
 def main(root,out):
- root=Path(root); manifest=json.loads((root/'reading-manifest.json').read_text(encoding='utf-8'))
- pool=[]; seen=set()
+ root=Path(root); manifest=json.loads((root/'reading-manifest.json').read_text(encoding='utf-8')); pool=[]; seen=set()
  for d in manifest:
   rows=json.loads((root/d['file']).read_text(encoding='utf-8'))
   for row in rows:
@@ -40,8 +34,7 @@ def main(root,out):
  while len(chosen)<goal:
   progressed=False
   for sub in subjects:
-   if i<len(by[sub]) and len(chosen)<goal:
-    chosen.append(by[sub][i]); progressed=True
+   if i<len(by[sub]) and len(chosen)<goal: chosen.append(by[sub][i]); progressed=True
   if not progressed: break
   i+=1
  if len(chosen)<goal:
