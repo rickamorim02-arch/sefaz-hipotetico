@@ -2,96 +2,96 @@
   {
     "subject": "Auditoria Fiscal",
     "file": "reading-auditoria-fiscal.json",
-    "lessons": 23
+    "lessons": 3
   },
   {
     "subject": "Contabilidade Geral",
     "file": "reading-contabilidade-geral.json",
-    "lessons": 137
+    "lessons": 20
   },
   {
-    "subject": "Contabilidade P├║blica",
-    "file": "reading-contabilidade-pblica.json",
-    "lessons": 117
+    "subject": "Contabilidade Pública",
+    "file": "reading-contabilidade-publica.json",
+    "lessons": 22
   },
   {
     "subject": "Desenvolvimento de Sistemas",
     "file": "reading-desenvolvimento-de-sistemas.json",
-    "lessons": 131
+    "lessons": 7
   },
   {
     "subject": "Direito Administrativo",
     "file": "reading-direito-administrativo.json",
-    "lessons": 150
+    "lessons": 25
   },
   {
     "subject": "Direito Constitucional",
     "file": "reading-direito-constitucional.json",
-    "lessons": 212
+    "lessons": 18
   },
   {
-    "subject": "Direito Tribut├írio",
-    "file": "reading-direito-tributirio.json",
-    "lessons": 97
+    "subject": "Direito Tributário",
+    "file": "reading-direito-tributario.json",
+    "lessons": 20
   },
   {
-    "subject": "Economia - Finan├ºas P├║blicas",
-    "file": "reading-economia-finanoas-pblicas.json",
-    "lessons": 325
+    "subject": "Economia - Finanças Públicas",
+    "file": "reading-economia-financas-publicas.json",
+    "lessons": 19
   },
   {
     "subject": "Engenharia de Software",
     "file": "reading-engenharia-de-software.json",
-    "lessons": 275
+    "lessons": 10
   },
   {
-    "subject": "Estat├¡stica e Probabilidade",
-    "file": "reading-estatstica-e-probabilidade.json",
-    "lessons": 174
+    "subject": "Estatística e Probabilidade",
+    "file": "reading-estatistica-e-probabilidade.json",
+    "lessons": 9
   },
   {
-    "subject": "Finan├ºas P├║blicas (Or├ºamento - LRF)",
-    "file": "reading-finanoas-pblicas-oroamento-lrf.json",
-    "lessons": 286
+    "subject": "Finanças Públicas (Orçamento - LRF)",
+    "file": "reading-financas-publicas-orcamento-lrf.json",
+    "lessons": 19
   },
   {
     "subject": "Forense Computacional",
     "file": "reading-forense-computacional.json",
-    "lessons": 12
-  },
-  {
-    "subject": "Governan├ºa de TI",
-    "file": "reading-governanoa-de-ti.json",
     "lessons": 3
   },
   {
-    "subject": "Intelig├¬ncia Artificial e Ci├¬ncia de Dados",
-    "file": "reading-inteligncia-artificial-e-cincia-de-dados.json",
-    "lessons": 382
+    "subject": "Governança de TI",
+    "file": "reading-governanca-de-ti.json",
+    "lessons": 1
+  },
+  {
+    "subject": "Inteligência Artificial e Ciência de Dados",
+    "file": "reading-inteligencia-artificial-e-ciencia-de-dados.json",
+    "lessons": 20
   },
   {
     "subject": "LTE",
     "file": "reading-lte.json",
-    "lessons": 134
+    "lessons": 15
   },
   {
-    "subject": "Matem├ítica Financeira",
-    "file": "reading-matemitica-financeira.json",
-    "lessons": 221
+    "subject": "Matemática Financeira",
+    "file": "reading-matematica-financeira.json",
+    "lessons": 9
   },
   {
-    "subject": "Reforma (EC n┬║ 1322023 e LC n┬║ 2142025)",
-    "file": "reading-reforma-ec-n-1322023-e-lc-n-2142025.json",
-    "lessons": 133
+    "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+    "file": "reading-reforma-ec-no-1322023-e-lc-no-2142025.json",
+    "lessons": 14
   },
   {
-    "subject": "Reforma (LC n┬║ 2272026)",
-    "file": "reading-reforma-lc-n-2272026.json",
-    "lessons": 54
+    "subject": "Reforma (LC nº 2272026)",
+    "file": "reading-reforma-lc-no-2272026.json",
+    "lessons": 9
   },
   {
-    "subject": "Seguran├ºa da Informa├º├úo e Redes",
-    "file": "reading-seguranoa-da-informaouo-e-redes.json",
-    "lessons": 92
+    "subject": "Segurança da Informação e Redes",
+    "file": "reading-seguranca-da-informacao-e-redes.json",
+    "lessons": 12
   }
 ]
