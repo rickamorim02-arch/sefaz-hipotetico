@@ -1,4 +1,4 @@
-name: Gerar e fragmentar banco de até 50 mil Shorts V2
+name: Gerar e auditar banco de Shorts
 on:
   workflow_dispatch:
   push:
@@ -6,6 +6,7 @@ on:
       - 'tools/build_questions.py'
       - 'tools/shard_questions.py'
       - 'tools/audit_restructure_questions.py'
+      - 'tools/audit_20_workers.py'
       - 'reading-manifest.json'
       - 'reading-*.json'
 permissions:
@@ -29,24 +30,26 @@ jobs:
           assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
           print('APROVADO:',n)
           PY
-      - name: Fragmentar em blocos leves
+      - name: Fragmentar
         run: python tools/shard_questions.py questions.json questions-data 500
-      - name: Auditar fragmentos
+      - name: Executar 20 auditores artificiais
+        run: python tools/audit_20_workers.py .
+      - name: Validar cobertura dos 20 auditores
         run: |
           python - <<'PY'
-          import json,pathlib
-          m=json.load(open('questions-manifest.json',encoding='utf-8')); total=0
-          for p in m['parts']:
-            d=json.load(open(p['file'],encoding='utf-8')); assert len(d)==p['count']<=500; total+=len(d)
-          assert total==m['total']; print('FRAGMENTOS APROVADOS:',len(m['parts']),'total:',total)
+          import json
+          r=json.load(open('structural-audit.json',encoding='utf-8'))
+          assert r['auditores']==20
+          assert sum(x['analisadas'] for x in r['por_auditor'])==r['total']
+          assert r['passam']+r['nao_passam']==r['total']
+          assert len(r['falhas'])==r['nao_passam']
+          print('COBERTURA CENSITÁRIA APROVADA:',r['total'])
           PY
-      - name: Medir estrutura sintática de toda a população
-        run: python tools/audit_restructure_questions.py .
-      - name: Publicar banco fragmentado e relatório estrutural
+      - name: Publicar banco e relatório
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add questions.json questions-manifest.json questions-data structural-audit.json
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica banco e auditoria estrutural censitária'
+          git commit -m 'Publica auditoria estrutural por 20 auditores'
           git push
