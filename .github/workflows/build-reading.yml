@@ -1,0 +1,42 @@
+name: Gerar base de leitura V2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'source/Compilacao_SEFAZ_AL_Auditada_V2.zip'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar arquivos por disciplina
+        run: |
+          python tools/build_reading.py source/Compilacao_SEFAZ_AL_Auditada_V2.zip reading-build
+          cp reading-build/reading-*.json .
+          cp reading-build/reading-manifest.json .
+      - name: Validar
+        run: |
+          python - <<'PY'
+          import json,glob
+          m=json.load(open('reading-manifest.json',encoding='utf-8'))
+          assert len(m)==19, len(m)
+          files=glob.glob('reading-*.json')
+          assert len(files)>=20, len(files)
+          for x in m:
+              d=json.load(open(x['file'],encoding='utf-8'))
+              assert d and all(r.get('subject')==x['subject'] for r in d)
+          print('OK: 19 disciplinas validadas')
+          PY
+      - name: Publicar base gerada
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reading-*.json reading-manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Gera base de leitura V2 por disciplina'
+          git push
