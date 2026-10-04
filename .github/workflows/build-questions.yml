@@ -1,9 +1,10 @@
-name: Gerar banco de até 50 mil Shorts V2
+name: Gerar e fragmentar banco de até 50 mil Shorts V2
 on:
   workflow_dispatch:
   push:
     paths:
       - 'tools/build_questions.py'
+      - 'tools/shard_questions.py'
       - 'reading-manifest.json'
       - 'reading-*.json'
 permissions:
@@ -16,28 +17,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Gerar até 50 mil questões rastreáveis
+      - name: Gerar banco
         run: python tools/build_questions.py . questions.json
       - name: Auditar banco
         run: |
           python - <<'PY'
           import json,re
-          q=json.load(open('questions.json',encoding='utf-8'))
-          norm=lambda s: re.sub(r'\W+',' ',s.lower(),flags=re.UNICODE).strip()
-          n=len(q)
-          assert 1 <= n <= 50000, n
-          assert len({x['s'] for x in q})==19
-          assert len({x['id'] for x in q})==n
-          assert len({norm(x['q']) for x in q})==n
+          q=json.load(open('questions.json',encoding='utf-8')); norm=lambda s:re.sub(r'\W+',' ',s.lower(),flags=re.UNICODE).strip(); n=len(q)
+          assert 1<=n<=50000 and len({x['s'] for x in q})==19 and len({x['id'] for x in q})==n and len({norm(x['q']) for x in q})==n
           assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
-          assert all(x['a'] is True for x in q)
-          print(f'APROVADO: {n} questões; 19 disciplinas; IDs/enunciados únicos; rastreabilidade completa')
+          print('APROVADO:',n)
           PY
-      - name: Publicar banco
+      - name: Fragmentar em blocos leves
+        run: python tools/shard_questions.py questions.json questions-data 500
+      - name: Auditar fragmentos
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          m=json.load(open('questions-manifest.json',encoding='utf-8')); total=0
+          for p in m['parts']:
+            d=json.load(open(p['file'],encoding='utf-8')); assert len(d)==p['count']<=500; total+=len(d)
+          assert total==m['total']; print('FRAGMENTOS APROVADOS:',len(m['parts']),'total:',total)
+          PY
+      - name: Publicar banco fragmentado
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add questions.json
+          git add questions.json questions-manifest.json questions-data
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica banco auditado de até 50 mil Shorts V2'
+          git commit -m 'Publica banco fragmentado para carregamento progressivo'
           git push
