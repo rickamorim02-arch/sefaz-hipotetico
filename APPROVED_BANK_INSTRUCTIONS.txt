@@ -1,0 +1,8 @@
+BANCO APROVADO — PROCEDIMENTO SEGURO
+
+1. Executar: python tools/build_approved_bank.py questions.json questions-approved.json
+2. O comando NÃO sobrescreve questions.json.
+3. O resultado fica em questions-approved.json.
+4. Os reprovados ficam registrados em structural-dropped.json.
+5. Auditar questions-approved.json antes de qualquer promoção para questions.json.
+6. Somente após zero falhas, substituir o banco publicado e regenerar questions-data.
