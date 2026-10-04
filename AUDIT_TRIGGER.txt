@@ -1,3 +1,4 @@
 Disparo manual substituto da auditoria estrutural censitária.
 Data: 2026-10-04
 Objetivo: executar 20 auditores sobre toda a população e publicar structural-audit.json.
+Tentativa: 2 — gatilho agora incluído explicitamente em build-questions.yml.
