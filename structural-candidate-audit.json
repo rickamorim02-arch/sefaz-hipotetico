@@ -1,8 +1,8 @@
 {
   "total": 8635,
   "auditores": 20,
-  "passam": 8250,
-  "nao_passam": 385,
+  "passam": 8294,
+  "nao_passam": 341,
   "criterio": "oração declarativa autônoma com sujeito identificável, verbo/predicado e complementação suficiente",
   "por_auditor": [
     {
@@ -10,128 +10,128 @@
       "inicio": 1,
       "fim": 432,
       "analisadas": 432,
-      "passam": 416,
-      "nao_passam": 16
+      "passam": 419,
+      "nao_passam": 13
     },
     {
       "auditor": 2,
       "inicio": 433,
       "fim": 864,
       "analisadas": 432,
-      "passam": 412,
-      "nao_passam": 20
+      "passam": 413,
+      "nao_passam": 19
     },
     {
       "auditor": 3,
       "inicio": 865,
       "fim": 1296,
       "analisadas": 432,
-      "passam": 419,
-      "nao_passam": 13
+      "passam": 421,
+      "nao_passam": 11
     },
     {
       "auditor": 4,
       "inicio": 1297,
       "fim": 1728,
       "analisadas": 432,
-      "passam": 416,
-      "nao_passam": 16
+      "passam": 418,
+      "nao_passam": 14
     },
     {
       "auditor": 5,
       "inicio": 1729,
       "fim": 2160,
       "analisadas": 432,
-      "passam": 414,
-      "nao_passam": 18
+      "passam": 415,
+      "nao_passam": 17
     },
     {
       "auditor": 6,
       "inicio": 2161,
       "fim": 2592,
       "analisadas": 432,
-      "passam": 414,
-      "nao_passam": 18
+      "passam": 416,
+      "nao_passam": 16
     },
     {
       "auditor": 7,
       "inicio": 2593,
       "fim": 3024,
       "analisadas": 432,
-      "passam": 412,
-      "nao_passam": 20
+      "passam": 413,
+      "nao_passam": 19
     },
     {
       "auditor": 8,
       "inicio": 3025,
       "fim": 3456,
       "analisadas": 432,
-      "passam": 410,
-      "nao_passam": 22
+      "passam": 412,
+      "nao_passam": 20
     },
     {
       "auditor": 9,
       "inicio": 3457,
       "fim": 3888,
       "analisadas": 432,
-      "passam": 408,
-      "nao_passam": 24
+      "passam": 411,
+      "nao_passam": 21
     },
     {
       "auditor": 10,
       "inicio": 3889,
       "fim": 4320,
       "analisadas": 432,
-      "passam": 410,
-      "nao_passam": 22
+      "passam": 413,
+      "nao_passam": 19
     },
     {
       "auditor": 11,
       "inicio": 4321,
       "fim": 4752,
       "analisadas": 432,
-      "passam": 417,
-      "nao_passam": 15
+      "passam": 418,
+      "nao_passam": 14
     },
     {
       "auditor": 12,
       "inicio": 4753,
       "fim": 5184,
       "analisadas": 432,
-      "passam": 416,
-      "nao_passam": 16
+      "passam": 419,
+      "nao_passam": 13
     },
     {
       "auditor": 13,
       "inicio": 5185,
       "fim": 5616,
       "analisadas": 432,
-      "passam": 396,
-      "nao_passam": 36
+      "passam": 401,
+      "nao_passam": 31
     },
     {
       "auditor": 14,
       "inicio": 5617,
       "fim": 6048,
       "analisadas": 432,
-      "passam": 401,
-      "nao_passam": 31
+      "passam": 407,
+      "nao_passam": 25
     },
     {
       "auditor": 15,
       "inicio": 6049,
       "fim": 6480,
       "analisadas": 432,
-      "passam": 416,
-      "nao_passam": 16
+      "passam": 419,
+      "nao_passam": 13
     },
     {
       "auditor": 16,
       "inicio": 6481,
       "fim": 6912,
       "analisadas": 432,
-      "passam": 414,
-      "nao_passam": 18
+      "passam": 417,
+      "nao_passam": 15
     },
     {
       "auditor": 17,
@@ -154,41 +154,23 @@
       "inicio": 7777,
       "fim": 8208,
       "analisadas": 432,
-      "passam": 423,
-      "nao_passam": 9
+      "passam": 424,
+      "nao_passam": 8
     },
     {
       "auditor": 20,
       "inicio": 8209,
       "fim": 8635,
       "analisadas": 427,
-      "passam": 407,
-      "nao_passam": 20
+      "passam": 409,
+      "nao_passam": 18
     }
   ],
   "falhas": [
     {
-      "id": "V11-00043",
-      "subject": "Finanças Públicas (Orçamento - LRF)",
-      "question": "Dessa forma, o orçamento-programa é o elo entre o plano e o orçamento.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 1
-    },
-    {
       "id": "V11-00075",
       "subject": "Inteligência Artificial e Ciência de Dados",
       "question": "Ele deve ser confiável e íntegro, pois isso garante que as decisões baseadas nele sejam fundamentadas e eficazes.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 1
-    },
-    {
-      "id": "V11-00103",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, a administração não possui livre disposição dos bens e interesses públicos, uma vez que atua em nome de terceiros, a coletividade.",
       "reasons": [
         "referente_dependente_contexto"
       ],
@@ -285,15 +267,6 @@
       "auditor": 1
     },
     {
-      "id": "V11-00355",
-      "subject": "Direito Constitucional",
-      "question": "Desse modo, nem todos os tratados internacionais de direitos humanos têm status constitucional.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 1
-    },
-    {
       "id": "V11-00390",
       "subject": "Desenvolvimento de Sistemas",
       "question": "Um loop que sempre se repetirá em um determinado número de vezes é representado pelo código SE ENTÃO SENÃO FIM SE.",
@@ -310,15 +283,6 @@
         "complemento_truncado"
       ],
       "auditor": 1
-    },
-    {
-      "id": "V11-00482",
-      "subject": "Estatística e Probabilidade",
-      "question": "Desse modo, a área não tem relação com a diferença de frequência absoluta de um certo intervalo.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 2
     },
     {
       "id": "V11-00505",
@@ -493,15 +457,6 @@
       "auditor": 2
     },
     {
-      "id": "V11-00896",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, busca-se evitar uma quebra de expectativa que a população tem sobre a manutenção das decisões do poder público.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 3
-    },
-    {
       "id": "V11-00914",
       "subject": "LTE",
       "question": "III – Em todas as operações interestaduais que contenha o Estado do RN como remetente, a alíquota aplicada é de 12%.",
@@ -516,15 +471,6 @@
       "question": "IV – a alíquota incidente na importação é a alíquota interna.",
       "reasons": [
         "item_de_esquema"
-      ],
-      "auditor": 3
-    },
-    {
-      "id": "V11-00963",
-      "subject": "Segurança da Informação e Redes",
-      "question": "Dessa forma, quando um host ou servidor busca a informação do endereço IP a partir de um nome tem-se que será fornecido de fato os endereços de servidores de email.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 3
     },
@@ -718,24 +664,6 @@
       "auditor": 4
     },
     {
-      "id": "V11-01524",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, o próprio órgão administrativo que os representa não tem disponibilidade sobre eles, devendo atuar em estrita conformidade com o que dispuser a intentio legis.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 4
-    },
-    {
-      "id": "V11-01531",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, temos que os direitos fundamentais abrangem qualquer pessoa que se encontre em território nacional.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 4
-    },
-    {
       "id": "V11-01657",
       "subject": "Finanças Públicas (Orçamento - LRF)",
       "question": "Todas são legalmente válidas e igualmente admissíveis, desde que.",
@@ -759,15 +687,6 @@
       "question": "Como ambas possuem largura igual a 5, temos que.",
       "reasons": [
         "complemento_truncado"
-      ],
-      "auditor": 5
-    },
-    {
-      "id": "V11-01810",
-      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
-      "question": "Dessa forma, a medição é um elemento operacional da cobrança, mas não determina a ocorrência do tributo.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 5
     },
@@ -961,15 +880,6 @@
       "auditor": 6
     },
     {
-      "id": "V11-02351",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, os atos da Administração Pública não são julgados pelo Poder Judiciário, mas sim pelos tribunais administrativos.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 6
-    },
-    {
       "id": "V11-02407",
       "subject": "Direito Constitucional",
       "question": "Ele só é viável quando a falta total ou parcial de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
@@ -982,15 +892,6 @@
       "id": "V11-02413",
       "subject": "Segurança da Informação e Redes",
       "question": "Ele não é um método de autenticação, mas sim um meio de enviar dados em tempo eal entre dois sistemas ou aplicativos distintos.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 6
-    },
-    {
-      "id": "V11-02425",
-      "subject": "Desenvolvimento de Sistemas",
-      "question": "Dessa forma, podemos concluir que a afirmativa com o apontamento correto é a letra B.",
       "reasons": [
         "referente_dependente_contexto"
       ],
@@ -1186,15 +1087,6 @@
       "auditor": 7
     },
     {
-      "id": "V11-02902",
-      "subject": "Finanças Públicas (Orçamento - LRF)",
-      "question": "Dessa forma, a informação contida no orçamento é mais abrangente e útil, possibilitando uma compreensão mais completa das finanças públicas e uma avaliação mais precisa das políticas governamentais.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 7
-    },
-    {
       "id": "V11-02930",
       "subject": "Segurança da Informação e Redes",
       "question": "O equipamento instalado pela equipe de TI utiliza recursos de.",
@@ -1303,15 +1195,6 @@
       "auditor": 8
     },
     {
-      "id": "V11-03176",
-      "subject": "Segurança da Informação e Redes",
-      "question": "Desse modo, como a inspeção é limitada, possíveis ataques que extrapolem a capacidade de inspeção não serão identificados e assim, não serão totalmente eficazes.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 8
-    },
-    {
       "id": "V11-03219",
       "subject": "Estatística e Probabilidade",
       "question": "A permutação circular de 𝑛 elementos é dada por.",
@@ -1360,15 +1243,6 @@
       "id": "V11-03330",
       "subject": "Inteligência Artificial e Ciência de Dados",
       "question": "Elas são atualizadas em tempo real, refletindo as mudanças nas tabelas subjacentes.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 8
-    },
-    {
-      "id": "V11-03339",
-      "subject": "Segurança da Informação e Redes",
-      "question": "Dessa forma, mesmo que um dispositivo seja comprometido, o acesso aos dados sensíveis é limitado, reduzindo o impacto de um possível ataque.",
       "reasons": [
         "referente_dependente_contexto"
       ],
@@ -1538,24 +1412,6 @@
       "auditor": 9
     },
     {
-      "id": "V11-03620",
-      "subject": "Contabilidade Pública",
-      "question": "Dessa forma, os controles de atos potenciais ativos e passivos não são contrapartida um do outro e, pela metodologia do PCASP, em regra, não terão o mesmo saldo.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 9
-    },
-    {
-      "id": "V11-03627",
-      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
-      "question": "Dessa forma, não é permitido realizar o pagamento em qualquer unidade do contribuinte.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 9
-    },
-    {
       "id": "V11-03640",
       "subject": "Direito Tributário",
       "question": "II- O fato gerador de impostos depende de atividade estatal específica, definida em lei, como retribuição ao contribuinte.",
@@ -1570,15 +1426,6 @@
       "question": "Então, no momento do nascimento apenas João e Jaqueline são brasileiros natos.",
       "reasons": [
         "prefixo_contextual_alternativa"
-      ],
-      "auditor": 9
-    },
-    {
-      "id": "V11-03656",
-      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
-      "question": "Dessa forma, a apuração assistida não é meramente informativa, pois pode ser utilizada como base para exigência dos tributos devidos.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 9
     },
@@ -1709,15 +1556,6 @@
       "auditor": 10
     },
     {
-      "id": "V11-03982",
-      "subject": "Matemática Financeira",
-      "question": "Dessa forma, se nenhum outro pagamento é exigido, o custo anual da operação é de 20%.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 10
-    },
-    {
       "id": "V11-03983",
       "subject": "Segurança da Informação e Redes",
       "question": "Tal implementação permite combater ataques como o DNS POISONING.",
@@ -1777,15 +1615,6 @@
       "question": "Foi identificado um malware que é capaz de se propagar automaticamente, explorando vulnerabilidades existentes em programas instalados nos computadores infectados, tornando-os zumbis.",
       "reasons": [
         "sujeito_nao_autonomo"
-      ],
-      "auditor": 10
-    },
-    {
-      "id": "V11-04150",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, a criação de autarquia depende de projeto de iniciativa do chefe do Poder Executivo.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 10
     },
@@ -1858,15 +1687,6 @@
       "question": "C - IRPF a recolher (↑Passivo) Em síntese, o IRPF não é uma despesa da entidade.",
       "reasons": [
         "item_de_esquema"
-      ],
-      "auditor": 10
-    },
-    {
-      "id": "V11-04311",
-      "subject": "Finanças Públicas (Orçamento - LRF)",
-      "question": "Dessa forma, despesa orçamentária é toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 10
     },
@@ -1952,15 +1772,6 @@
       "auditor": 11
     },
     {
-      "id": "V11-04588",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, o partido define sua estrutura interna, organização e funcionamento sem interferência do Estado.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 11
-    },
-    {
       "id": "V11-04649",
       "subject": "Direito Constitucional",
       "question": "Pode-se dizer, portanto, que é facultada a vinculação entre candidaturas em âmbito nacional, estadual, distrital ou municipal.",
@@ -2015,15 +1826,6 @@
       "auditor": 12
     },
     {
-      "id": "V11-04803",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, a delegação do poder de polícia a entidades administrativas de direito privado é possível, desde que atenda a alguns requisitos, dentre eles, o de que deverá ocorrer por meio de lei formal.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 12
-    },
-    {
       "id": "V11-04812",
       "subject": "Direito Tributário",
       "question": "Quanto à possibilidade de suspensão da exigibilidade do crédito tributário é correto o que se encontra em.",
@@ -2033,29 +1835,11 @@
       "auditor": 12
     },
     {
-      "id": "V11-04829",
-      "subject": "Inteligência Artificial e Ciência de Dados",
-      "question": "Dessa forma, duas variáveis possuem relação se a mudança em uma provoca a mudança em outra.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 12
-    },
-    {
       "id": "V11-04832",
       "subject": "Direito Constitucional",
       "question": "A República Federativa do Brasil caracteriza-se pela concessão de soberania à União, aos estados, ao Distrito Federal e aos municípios.",
       "reasons": [
         "sem_verbo_principal_detectavel"
-      ],
-      "auditor": 12
-    },
-    {
-      "id": "V11-04840",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, a República Federativa do Brasil é dotada de Soberania e constitui-se da união indissolúvel dos entes federados.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 12
     },
@@ -2195,27 +1979,9 @@
       "auditor": 13
     },
     {
-      "id": "V11-05265",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, somente está sujeito ao poder disciplinar aquele que possui algum vínculo específico com a Administração, seja de natureza funcional ou contratual.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 13
-    },
-    {
       "id": "V11-05267",
       "subject": "Direito Administrativo",
       "question": "Tal competência é da vigilância sanitária – ERRADA.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 13
-    },
-    {
-      "id": "V11-05280",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, o poder hierárquico permite que um superior, de ofício ou por provocação, anule os atos ilegais ou avalie a conveniência e oportunidade para revogar os atos de seus subordinados – CORRETA.",
       "reasons": [
         "referente_dependente_contexto"
       ],
@@ -2375,33 +2141,6 @@
       "auditor": 13
     },
     {
-      "id": "V11-05520",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, não é possível que seja firmado um contrato de concessão com prazo indeterminado, como dito no enunciado.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 13
-    },
-    {
-      "id": "V11-05525",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, a permissão e a concessão são formas de prestação indireta de serviços públicos.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 13
-    },
-    {
-      "id": "V11-05527",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, não é possível mensurar o quanto cada usuário usufrui do serviço.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 13
-    },
-    {
       "id": "V11-05529",
       "subject": "Direito Administrativo",
       "question": "Existem várias competências “privativas”, no texto constitucional, que ora são passíveis de delegação e ora não o são.",
@@ -2501,27 +2240,9 @@
       "auditor": 14
     },
     {
-      "id": "V11-05640",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, a assertiva possui dois erros.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 14
-    },
-    {
       "id": "V11-05651",
       "subject": "Direito Administrativo",
       "question": "Eles são regidos pelas regras da CLT, firmando contrato de trabalho com a entidade pública empregadora.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 14
-    },
-    {
-      "id": "V11-05659",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, o servidor que ocupa exclusivamente cargo em comissão não possui estabilidade, uma vez que seu cargo é de livre nomeação e exoneração.",
       "reasons": [
         "referente_dependente_contexto"
       ],
@@ -2564,29 +2285,11 @@
       "auditor": 14
     },
     {
-      "id": "V11-05687",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, normalmente, os feriados, sábados e domingos são contados nos prazos, mas se o vencimento ocorrer em dia não útil, o prazo será prorrogado para o dia útil imediatamente subsequente.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 14
-    },
-    {
       "id": "V11-05697",
       "subject": "Direito Administrativo",
       "question": "Há, na jurisprudência, uma exceção, que é o Presidente da República (PR).",
       "reasons": [
         "sujeito_nao_autonomo"
-      ],
-      "auditor": 14
-    },
-    {
-      "id": "V11-05703",
-      "subject": "Direito Administrativo",
-      "question": "Dessa forma, para punir uma gente com ato dessa categoria é imprescindível a comprovação de que o agente buscou obter alguma vantagem com o ato de improbidade.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 14
     },
@@ -2708,15 +2411,6 @@
       "auditor": 14
     },
     {
-      "id": "V11-05955",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, o CNJ não exerce função jurisdicional, pois é um órgão de controle interno cujas atribuições são exclusivamente administrativas.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 14
-    },
-    {
       "id": "V11-05971",
       "subject": "Direito Constitucional",
       "question": "Tal recurso tem natureza ordinária, estando expressamente previsto na Constituição Federal.",
@@ -2744,15 +2438,6 @@
       "auditor": 14
     },
     {
-      "id": "V11-06041",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, caso o efeito repristinatório seja indesejado é possível que o STF o afaste, manifestando-se expressamente nesse sentido.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 14
-    },
-    {
       "id": "V11-06051",
       "subject": "Direito Constitucional",
       "question": "Tais enunciados são a síntese de orientações reiteradamente assentadas pela Corte, cuja revisão deve ocorrer de forma gradual pelo próprio STF.",
@@ -2767,33 +2452,6 @@
       "question": "Há que se destacar, porém, que o princípio da subsidiariedade aplica-se no contexto das ações do controle concentrado-abstrato de constitucionalidade.",
       "reasons": [
         "sujeito_nao_autonomo"
-      ],
-      "auditor": 15
-    },
-    {
-      "id": "V11-06070",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, resta equivocada a afirmação que a Constituição prevê um tratamento diferenciado entre empresas brasileiras e empresas brasileiras de capital nacional.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 15
-    },
-    {
-      "id": "V11-06079",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, a imprescindibilidade à segurança nacional não é a única hipótese em que se autoriza a atuação direta do Estado na atividade econômica.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 15
-    },
-    {
-      "id": "V11-06093",
-      "subject": "Direito Constitucional",
-      "question": "Dessa forma, a Constituição Federal permite essa flexibilidade para a gestão orçamentária, garantindo a eficiência e a adequação dos gastos públicos ao longo do ano.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 15
     },
@@ -3005,38 +2663,11 @@
       "auditor": 16
     },
     {
-      "id": "V11-06786",
-      "subject": "Economia - Finanças Públicas",
-      "question": "Dessa forma, a Base Monetária (B) é multiplicada pelos bancos através do “empresta-deposita- empresta-deposita”, fazendo com que o valor de M1 circulante na economia seja muito maior que a Base Monetária.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 16
-    },
-    {
       "id": "V11-06813",
       "subject": "Economia - Finanças Públicas",
       "question": "A terceira função desse ativo é de ______________ que representa um denominador comum de valor, ou seja, representa o padrão para que as demais mercadorias expressem seus valores.",
       "reasons": [
         "lacuna_ou_elipse"
-      ],
-      "auditor": 16
-    },
-    {
-      "id": "V11-06825",
-      "subject": "Economia - Finanças Públicas",
-      "question": "Dessa forma, a relação entre a reserva compulsória e os meios de pagamento (M1) é inversa.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 16
-    },
-    {
-      "id": "V11-06829",
-      "subject": "Economia - Finanças Públicas",
-      "question": "Dessa forma, as pessoas devem trocar a moeda estrangeira que possuem por moeda local antes de fazer compras.",
-      "reasons": [
-        "referente_dependente_contexto"
       ],
       "auditor": 16
     },
@@ -3411,15 +3042,6 @@
       "auditor": 19
     },
     {
-      "id": "V11-07906",
-      "subject": "Inteligência Artificial e Ciência de Dados",
-      "question": "Dessa forma, o total de observações não é 1.000, mas sim 1.100.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 19
-    },
-    {
       "id": "V11-07985",
       "subject": "Inteligência Artificial e Ciência de Dados",
       "question": "As aplicações de bigdata caracterizam-se exclusivamente pelo grande volume de dados armazenados em tabelas relacionais.",
@@ -3546,15 +3168,6 @@
       "auditor": 20
     },
     {
-      "id": "V11-08562",
-      "subject": "Segurança da Informação e Redes",
-      "question": "Desse modo, dizer que elas devem ser encorajadas é um erro.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 20
-    },
-    {
       "id": "V11-08567",
       "subject": "Segurança da Informação e Redes",
       "question": "Ambiente físico proposto para o trabalho remoto que inclui ambientes de trabalho não tradicionais, como aqueles referidos como.",
@@ -3567,15 +3180,6 @@
       "id": "V11-08580",
       "subject": "Segurança da Informação e Redes",
       "question": "Ela se concentra no cenário geral de ameaças é mais apropriada para análises macroscópicas e é usada para definir a consequência e a gravidade de um determinado cenário.",
-      "reasons": [
-        "referente_dependente_contexto"
-      ],
-      "auditor": 20
-    },
-    {
-      "id": "V11-08587",
-      "subject": "Segurança da Informação e Redes",
-      "question": "Desse modo, a norma define da seguinte forma.",
       "reasons": [
         "referente_dependente_contexto"
       ],
