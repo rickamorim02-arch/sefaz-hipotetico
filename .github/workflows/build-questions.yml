@@ -26,7 +26,7 @@ jobs:
           python-version: '3.12'
       - name: Gerar banco base
         run: python tools/build_questions.py . questions.json
-      - name: Gerar banco aprovado sem sobrescrever original
+      - name: Gerar banco aprovado
         run: python tools/build_approved_bank.py questions.json questions-approved.json
       - name: Auditar banco aprovado com 20 auditores
         run: |
@@ -35,7 +35,7 @@ jobs:
           python tools/audit_20_workers.py .
           mv structural-audit.json structural-approved-audit.json
           mv questions-original.tmp questions.json
-      - name: Validar resultado aprovado
+      - name: Validar banco aprovado
         run: |
           python - <<'PY'
           import json
@@ -43,17 +43,35 @@ jobs:
           dropped=json.load(open('structural-dropped.json',encoding='utf-8'))
           audit=json.load(open('structural-approved-audit.json',encoding='utf-8'))
           assert dropped['total_original']==dropped['aprovadas']+dropped['dispensadas']
-          assert len(approved)==dropped['aprovadas']==audit['total']
+          assert len(approved)==dropped['aprovadas']==audit['total']==8250
+          assert dropped['dispensadas']==385
           assert audit['auditores']==20
-          assert audit['nao_passam']==0
-          assert audit['passam']==audit['total']
-          print('BANCO APROVADO=',len(approved),'DISPENSADOS=',dropped['dispensadas'],'FALHAS=',audit['nao_passam'])
+          assert audit['nao_passam']==0 and audit['passam']==8250
+          print('VALIDADO: 8250 aprovados, 385 dispensados, zero falhas')
           PY
-      - name: Publicar candidato aprovado e relatórios
+      - name: Gerar fragmentos diretamente do banco aprovado
+        run: python tools/shard_questions.py questions-approved.json questions-data 500
+      - name: Trava de sincronizacao da camada publicada
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.load(open('questions-manifest.json',encoding='utf-8'))
+          a=json.load(open('structural-approved-audit.json',encoding='utf-8'))
+          assert m['total']==a['total']==8250
+          assert sum(p['count'] for p in m['parts'])==8250
+          assert len(m['parts'])==17
+          for p in m['parts']:
+              data=json.load(open(p['file'],encoding='utf-8'))
+              assert len(data)==p['count']
+          assert m['parts'][-1]['count']==250
+          print('PUBLICACAO SINCRONIZADA: manifest=8250, fragmentos=8250, auditoria=8250')
+          PY
+      - name: Publicar camada fragmentada validada
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add questions-approved.json structural-dropped.json structural-approved-audit.json
+          git add questions-approved.json structural-dropped.json structural-approved-audit.json questions-manifest.json questions-data
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica banco estruturalmente aprovado e auditoria final'
+          git commit -m 'Publica 8250 Shorts aprovados na camada fragmentada'
           git push
