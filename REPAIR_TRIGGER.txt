@@ -1,0 +1,3 @@
+Disparo do candidato estrutural isolado.
+Data: 2026-10-04.
+O banco questions.json não deve ser sobrescrito por este workflow.
