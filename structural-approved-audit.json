@@ -1,0 +1,170 @@
+{
+  "total": 8250,
+  "auditores": 20,
+  "passam": 8250,
+  "nao_passam": 0,
+  "criterio": "oração declarativa autônoma com sujeito identificável, verbo/predicado e complementação suficiente",
+  "por_auditor": [
+    {
+      "auditor": 1,
+      "inicio": 1,
+      "fim": 413,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 2,
+      "inicio": 414,
+      "fim": 826,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 3,
+      "inicio": 827,
+      "fim": 1239,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 4,
+      "inicio": 1240,
+      "fim": 1652,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 5,
+      "inicio": 1653,
+      "fim": 2065,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 6,
+      "inicio": 2066,
+      "fim": 2478,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 7,
+      "inicio": 2479,
+      "fim": 2891,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 8,
+      "inicio": 2892,
+      "fim": 3304,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 9,
+      "inicio": 3305,
+      "fim": 3717,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 10,
+      "inicio": 3718,
+      "fim": 4130,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 11,
+      "inicio": 4131,
+      "fim": 4543,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 12,
+      "inicio": 4544,
+      "fim": 4956,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 13,
+      "inicio": 4957,
+      "fim": 5369,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 14,
+      "inicio": 5370,
+      "fim": 5782,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 15,
+      "inicio": 5783,
+      "fim": 6195,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 16,
+      "inicio": 6196,
+      "fim": 6608,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 17,
+      "inicio": 6609,
+      "fim": 7021,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 18,
+      "inicio": 7022,
+      "fim": 7434,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 19,
+      "inicio": 7435,
+      "fim": 7847,
+      "analisadas": 413,
+      "passam": 413,
+      "nao_passam": 0
+    },
+    {
+      "auditor": 20,
+      "inicio": 7848,
+      "fim": 8250,
+      "analisadas": 403,
+      "passam": 403,
+      "nao_passam": 0
+    }
+  ],
+  "falhas": []
+}
