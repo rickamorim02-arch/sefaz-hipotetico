@@ -1,17 +1,20 @@
 name: Gerar e auditar banco de Shorts
-on:
+
+'on':
   workflow_dispatch:
   push:
     paths:
-      - 'tools/build_questions.py'
-      - 'tools/shard_questions.py'
-      - 'tools/audit_restructure_questions.py'
-      - 'tools/audit_20_workers.py'
-      - 'AUDIT_TRIGGER.txt'
-      - 'reading-manifest.json'
-      - 'reading-*.json'
+      - tools/build_questions.py
+      - tools/shard_questions.py
+      - tools/audit_restructure_questions.py
+      - tools/audit_20_workers.py
+      - AUDIT_TRIGGER.txt
+      - reading-manifest.json
+      - reading-*.json
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,11 +28,16 @@ jobs:
       - name: Auditar banco
         run: |
           python - <<'PY'
-          import json,re
-          q=json.load(open('questions.json',encoding='utf-8')); norm=lambda s:re.sub(r'\W+',' ',s.lower(),flags=re.UNICODE).strip(); n=len(q)
-          assert 1<=n<=50000 and len({x['s'] for x in q})==19 and len({x['id'] for x in q})==n and len({norm(x['q']) for x in q})==n
+          import json, re
+          q = json.load(open('questions.json', encoding='utf-8'))
+          norm = lambda s: re.sub(r'\W+', ' ', s.lower(), flags=re.UNICODE).strip()
+          n = len(q)
+          assert 1 <= n <= 50000
+          assert len({x['s'] for x in q}) == 19
+          assert len({x['id'] for x in q}) == n
+          assert len({norm(x['q']) for x in q}) == n
           assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
-          print('APROVADO:',n)
+          print('APROVADO:', n)
           PY
       - name: Fragmentar
         run: python tools/shard_questions.py questions.json questions-data 500
@@ -39,12 +47,12 @@ jobs:
         run: |
           python - <<'PY'
           import json
-          r=json.load(open('structural-audit.json',encoding='utf-8'))
-          assert r['auditores']==20
-          assert sum(x['analisadas'] for x in r['por_auditor'])==r['total']
-          assert r['passam']+r['nao_passam']==r['total']
-          assert len(r['falhas'])==r['nao_passam']
-          print('COBERTURA CENSITÁRIA APROVADA:',r['total'])
+          r = json.load(open('structural-audit.json', encoding='utf-8'))
+          assert r['auditores'] == 20
+          assert sum(x['analisadas'] for x in r['por_auditor']) == r['total']
+          assert r['passam'] + r['nao_passam'] == r['total']
+          assert len(r['falhas']) == r['nao_passam']
+          print('COBERTURA CENSITARIA APROVADA:', r['total'])
           PY
       - name: Publicar banco e relatório
         run: |
