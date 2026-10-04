@@ -8,6 +8,7 @@ name: Gerar e auditar banco de Shorts
       - tools/shard_questions.py
       - tools/audit_restructure_questions.py
       - tools/audit_20_workers.py
+      - tools/build_structural_candidate.py
       - AUDIT_TRIGGER.txt
       - reading-manifest.json
       - reading-*.json
@@ -25,40 +26,58 @@ jobs:
           python-version: '3.12'
       - name: Gerar banco
         run: python tools/build_questions.py . questions.json
-      - name: Auditar banco
+      - name: Auditar integridade do banco
         run: |
           python - <<'PY'
-          import json, re
-          q = json.load(open('questions.json', encoding='utf-8'))
-          norm = lambda s: re.sub(r'\W+', ' ', s.lower(), flags=re.UNICODE).strip()
-          n = len(q)
-          assert 1 <= n <= 50000
-          assert len({x['s'] for x in q}) == 19
-          assert len({x['id'] for x in q}) == n
-          assert len({norm(x['q']) for x in q}) == n
+          import json,re
+          q=json.load(open('questions.json',encoding='utf-8')); norm=lambda s:re.sub(r'\W+',' ',s.lower(),flags=re.UNICODE).strip(); n=len(q)
+          assert 1<=n<=50000 and len({x['s'] for x in q})==19 and len({x['id'] for x in q})==n and len({norm(x['q']) for x in q})==n
           assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
-          print('APROVADO:', n)
+          print('INTEGRIDADE APROVADA:',n)
           PY
-      - name: Fragmentar
+      - name: Fragmentar banco publicado
         run: python tools/shard_questions.py questions.json questions-data 500
-      - name: Executar 20 auditores artificiais
+      - name: Executar 20 auditores no banco publicado
         run: python tools/audit_20_workers.py .
-      - name: Validar cobertura dos 20 auditores
+      - name: Validar cobertura censitaria
         run: |
           python - <<'PY'
           import json
-          r = json.load(open('structural-audit.json', encoding='utf-8'))
-          assert r['auditores'] == 20
-          assert sum(x['analisadas'] for x in r['por_auditor']) == r['total']
-          assert r['passam'] + r['nao_passam'] == r['total']
-          assert len(r['falhas']) == r['nao_passam']
-          print('COBERTURA CENSITARIA APROVADA:', r['total'])
+          r=json.load(open('structural-audit.json',encoding='utf-8'))
+          assert r['auditores']==20
+          assert sum(x['analisadas'] for x in r['por_auditor'])==r['total']
+          assert r['passam']+r['nao_passam']==r['total']
+          assert len(r['falhas'])==r['nao_passam']
+          print('20 AUDITORES / COBERTURA:',r['total'],'PASSAM:',r['passam'],'FALHAM:',r['nao_passam'])
           PY
-      - name: Publicar banco e relatório
+      - name: Gerar candidato isolado de reparo
+        run: python tools/build_structural_candidate.py .
+      - name: Auditar candidato sem substituir original
+        run: |
+          cp questions.json questions-original.tmp
+          cp questions-candidate.json questions.json
+          python tools/audit_20_workers.py .
+          mv structural-audit.json structural-candidate-audit.json
+          mv questions-original.tmp questions.json
+      - name: Comparar original e candidato
+        run: |
+          python - <<'PY'
+          import json
+          o=json.load(open('questions.json',encoding='utf-8'))
+          c=json.load(open('questions-candidate.json',encoding='utf-8'))
+          a=json.load(open('structural-candidate-audit.json',encoding='utf-8'))
+          rr=json.load(open('structural-repair-report.json',encoding='utf-8'))
+          assert len(o)==len(c)==a['total']
+          assert [x['id'] for x in o]==[x['id'] for x in c]
+          assert rr['falhas_originais']==385
+          assert rr['corrigidas_conservadoramente']+rr['pendentes_de_pesquisa_ou_contexto']==385
+          print('SOLUCAO CANDIDATA: corrigidas=',rr['corrigidas_conservadoramente'],'pendentes=',rr['pendentes_de_pesquisa_ou_contexto'],'falhas_apos=',a['nao_passam'])
+          PY
+      - name: Publicar auditorias e candidato sem trocar banco
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add questions.json questions-manifest.json questions-data structural-audit.json
+          git add questions.json questions-manifest.json questions-data structural-audit.json questions-candidate.json structural-repair-report.json structural-candidate-audit.json
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica auditoria estrutural por 20 auditores'
+          git commit -m 'Publica auditoria completa e candidato estrutural isolado'
           git push
