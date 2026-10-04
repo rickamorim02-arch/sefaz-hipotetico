@@ -1,0 +1,3005 @@
+{
+  "total_original": 8635,
+  "falhas_originais": 385,
+  "corrigidas_conservadoramente": 44,
+  "pendentes_de_pesquisa_ou_contexto": 341,
+  "alteracoes": [
+    {
+      "id": "V11-00043",
+      "antes": "Dessa forma, o orçamento-programa é o elo entre o plano e o orçamento.",
+      "depois": "O orçamento-programa é o elo entre o plano e o orçamento.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-00103",
+      "antes": "Dessa forma, a administração não possui livre disposição dos bens e interesses públicos, uma vez que atua em nome de terceiros, a coletividade.",
+      "depois": "A administração não possui livre disposição dos bens e interesses públicos, uma vez que atua em nome de terceiros, a coletividade.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-00355",
+      "antes": "Desse modo, nem todos os tratados internacionais de direitos humanos têm status constitucional.",
+      "depois": "Nem todos os tratados internacionais de direitos humanos têm status constitucional.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-00482",
+      "antes": "Desse modo, a área não tem relação com a diferença de frequência absoluta de um certo intervalo.",
+      "depois": "A área não tem relação com a diferença de frequência absoluta de um certo intervalo.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-00896",
+      "antes": "Dessa forma, busca-se evitar uma quebra de expectativa que a população tem sobre a manutenção das decisões do poder público.",
+      "depois": "Busca-se evitar uma quebra de expectativa que a população tem sobre a manutenção das decisões do poder público.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-00963",
+      "antes": "Dessa forma, quando um host ou servidor busca a informação do endereço IP a partir de um nome tem-se que será fornecido de fato os endereços de servidores de email.",
+      "depois": "Quando um host ou servidor busca a informação do endereço IP a partir de um nome tem-se que será fornecido de fato os endereços de servidores de email.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-01524",
+      "antes": "Dessa forma, o próprio órgão administrativo que os representa não tem disponibilidade sobre eles, devendo atuar em estrita conformidade com o que dispuser a intentio legis.",
+      "depois": "O próprio órgão administrativo que os representa não tem disponibilidade sobre eles, devendo atuar em estrita conformidade com o que dispuser a intentio legis.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-01531",
+      "antes": "Dessa forma, temos que os direitos fundamentais abrangem qualquer pessoa que se encontre em território nacional.",
+      "depois": "Temos que os direitos fundamentais abrangem qualquer pessoa que se encontre em território nacional.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-01810",
+      "antes": "Dessa forma, a medição é um elemento operacional da cobrança, mas não determina a ocorrência do tributo.",
+      "depois": "A medição é um elemento operacional da cobrança, mas não determina a ocorrência do tributo.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-02351",
+      "antes": "Dessa forma, os atos da Administração Pública não são julgados pelo Poder Judiciário, mas sim pelos tribunais administrativos.",
+      "depois": "Os atos da Administração Pública não são julgados pelo Poder Judiciário, mas sim pelos tribunais administrativos.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-02425",
+      "antes": "Dessa forma, podemos concluir que a afirmativa com o apontamento correto é a letra B.",
+      "depois": "Podemos concluir que a afirmativa com o apontamento correto é a letra B.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-02902",
+      "antes": "Dessa forma, a informação contida no orçamento é mais abrangente e útil, possibilitando uma compreensão mais completa das finanças públicas e uma avaliação mais precisa das políticas governamentais.",
+      "depois": "A informação contida no orçamento é mais abrangente e útil, possibilitando uma compreensão mais completa das finanças públicas e uma avaliação mais precisa das políticas governamentais.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03176",
+      "antes": "Desse modo, como a inspeção é limitada, possíveis ataques que extrapolem a capacidade de inspeção não serão identificados e assim, não serão totalmente eficazes.",
+      "depois": "Como a inspeção é limitada, possíveis ataques que extrapolem a capacidade de inspeção não serão identificados e assim, não serão totalmente eficazes.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03339",
+      "antes": "Dessa forma, mesmo que um dispositivo seja comprometido, o acesso aos dados sensíveis é limitado, reduzindo o impacto de um possível ataque.",
+      "depois": "Mesmo que um dispositivo seja comprometido, o acesso aos dados sensíveis é limitado, reduzindo o impacto de um possível ataque.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03620",
+      "antes": "Dessa forma, os controles de atos potenciais ativos e passivos não são contrapartida um do outro e, pela metodologia do PCASP, em regra, não terão o mesmo saldo.",
+      "depois": "Os controles de atos potenciais ativos e passivos não são contrapartida um do outro e, pela metodologia do PCASP, em regra, não terão o mesmo saldo.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03627",
+      "antes": "Dessa forma, não é permitido realizar o pagamento em qualquer unidade do contribuinte.",
+      "depois": "Não é permitido realizar o pagamento em qualquer unidade do contribuinte.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03656",
+      "antes": "Dessa forma, a apuração assistida não é meramente informativa, pois pode ser utilizada como base para exigência dos tributos devidos.",
+      "depois": "A apuração assistida não é meramente informativa, pois pode ser utilizada como base para exigência dos tributos devidos.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-03982",
+      "antes": "Dessa forma, se nenhum outro pagamento é exigido, o custo anual da operação é de 20%.",
+      "depois": "Se nenhum outro pagamento é exigido, o custo anual da operação é de 20%.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04150",
+      "antes": "Dessa forma, a criação de autarquia depende de projeto de iniciativa do chefe do Poder Executivo.",
+      "depois": "A criação de autarquia depende de projeto de iniciativa do chefe do Poder Executivo.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04311",
+      "antes": "Dessa forma, despesa orçamentária é toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada.",
+      "depois": "Despesa orçamentária é toda transação que depende de autorização legislativa, na forma de consignação de dotação orçamentária, para ser efetivada.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04588",
+      "antes": "Dessa forma, o partido define sua estrutura interna, organização e funcionamento sem interferência do Estado.",
+      "depois": "O partido define sua estrutura interna, organização e funcionamento sem interferência do Estado.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04803",
+      "antes": "Dessa forma, a delegação do poder de polícia a entidades administrativas de direito privado é possível, desde que atenda a alguns requisitos, dentre eles, o de que deverá ocorrer por meio de lei formal.",
+      "depois": "A delegação do poder de polícia a entidades administrativas de direito privado é possível, desde que atenda a alguns requisitos, dentre eles, o de que deverá ocorrer por meio de lei formal.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04829",
+      "antes": "Dessa forma, duas variáveis possuem relação se a mudança em uma provoca a mudança em outra.",
+      "depois": "Duas variáveis possuem relação se a mudança em uma provoca a mudança em outra.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-04840",
+      "antes": "Dessa forma, a República Federativa do Brasil é dotada de Soberania e constitui-se da união indissolúvel dos entes federados.",
+      "depois": "A República Federativa do Brasil é dotada de Soberania e constitui-se da união indissolúvel dos entes federados.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05265",
+      "antes": "Dessa forma, somente está sujeito ao poder disciplinar aquele que possui algum vínculo específico com a Administração, seja de natureza funcional ou contratual.",
+      "depois": "Somente está sujeito ao poder disciplinar aquele que possui algum vínculo específico com a Administração, seja de natureza funcional ou contratual.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05280",
+      "antes": "Dessa forma, o poder hierárquico permite que um superior, de ofício ou por provocação, anule os atos ilegais ou avalie a conveniência e oportunidade para revogar os atos de seus subordinados – CORRETA.",
+      "depois": "O poder hierárquico permite que um superior, de ofício ou por provocação, anule os atos ilegais ou avalie a conveniência e oportunidade para revogar os atos de seus subordinados – CORRETA.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05520",
+      "antes": "Dessa forma, não é possível que seja firmado um contrato de concessão com prazo indeterminado, como dito no enunciado.",
+      "depois": "Não é possível que seja firmado um contrato de concessão com prazo indeterminado, como dito no enunciado.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05525",
+      "antes": "Dessa forma, a permissão e a concessão são formas de prestação indireta de serviços públicos.",
+      "depois": "A permissão e a concessão são formas de prestação indireta de serviços públicos.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05527",
+      "antes": "Dessa forma, não é possível mensurar o quanto cada usuário usufrui do serviço.",
+      "depois": "Não é possível mensurar o quanto cada usuário usufrui do serviço.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05640",
+      "antes": "Dessa forma, a assertiva possui dois erros.",
+      "depois": "A assertiva possui dois erros.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05659",
+      "antes": "Dessa forma, o servidor que ocupa exclusivamente cargo em comissão não possui estabilidade, uma vez que seu cargo é de livre nomeação e exoneração.",
+      "depois": "O servidor que ocupa exclusivamente cargo em comissão não possui estabilidade, uma vez que seu cargo é de livre nomeação e exoneração.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05687",
+      "antes": "Dessa forma, normalmente, os feriados, sábados e domingos são contados nos prazos, mas se o vencimento ocorrer em dia não útil, o prazo será prorrogado para o dia útil imediatamente subsequente.",
+      "depois": "Normalmente, os feriados, sábados e domingos são contados nos prazos, mas se o vencimento ocorrer em dia não útil, o prazo será prorrogado para o dia útil imediatamente subsequente.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05703",
+      "antes": "Dessa forma, para punir uma gente com ato dessa categoria é imprescindível a comprovação de que o agente buscou obter alguma vantagem com o ato de improbidade.",
+      "depois": "Para punir uma gente com ato dessa categoria é imprescindível a comprovação de que o agente buscou obter alguma vantagem com o ato de improbidade.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-05955",
+      "antes": "Dessa forma, o CNJ não exerce função jurisdicional, pois é um órgão de controle interno cujas atribuições são exclusivamente administrativas.",
+      "depois": "O CNJ não exerce função jurisdicional, pois é um órgão de controle interno cujas atribuições são exclusivamente administrativas.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06041",
+      "antes": "Dessa forma, caso o efeito repristinatório seja indesejado é possível que o STF o afaste, manifestando-se expressamente nesse sentido.",
+      "depois": "Caso o efeito repristinatório seja indesejado é possível que o STF o afaste, manifestando-se expressamente nesse sentido.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06070",
+      "antes": "Dessa forma, resta equivocada a afirmação que a Constituição prevê um tratamento diferenciado entre empresas brasileiras e empresas brasileiras de capital nacional.",
+      "depois": "Resta equivocada a afirmação que a Constituição prevê um tratamento diferenciado entre empresas brasileiras e empresas brasileiras de capital nacional.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06079",
+      "antes": "Dessa forma, a imprescindibilidade à segurança nacional não é a única hipótese em que se autoriza a atuação direta do Estado na atividade econômica.",
+      "depois": "A imprescindibilidade à segurança nacional não é a única hipótese em que se autoriza a atuação direta do Estado na atividade econômica.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06093",
+      "antes": "Dessa forma, a Constituição Federal permite essa flexibilidade para a gestão orçamentária, garantindo a eficiência e a adequação dos gastos públicos ao longo do ano.",
+      "depois": "A Constituição Federal permite essa flexibilidade para a gestão orçamentária, garantindo a eficiência e a adequação dos gastos públicos ao longo do ano.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06786",
+      "antes": "Dessa forma, a Base Monetária (B) é multiplicada pelos bancos através do “empresta-deposita- empresta-deposita”, fazendo com que o valor de M1 circulante na economia seja muito maior que a Base Monetária.",
+      "depois": "A Base Monetária (B) é multiplicada pelos bancos através do “empresta-deposita- empresta-deposita”, fazendo com que o valor de M1 circulante na economia seja muito maior que a Base Monetária.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06825",
+      "antes": "Dessa forma, a relação entre a reserva compulsória e os meios de pagamento (M1) é inversa.",
+      "depois": "A relação entre a reserva compulsória e os meios de pagamento (M1) é inversa.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-06829",
+      "antes": "Dessa forma, as pessoas devem trocar a moeda estrangeira que possuem por moeda local antes de fazer compras.",
+      "depois": "As pessoas devem trocar a moeda estrangeira que possuem por moeda local antes de fazer compras.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-07906",
+      "antes": "Dessa forma, o total de observações não é 1.000, mas sim 1.100.",
+      "depois": "O total de observações não é 1.000, mas sim 1.100.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-08562",
+      "antes": "Desse modo, dizer que elas devem ser encorajadas é um erro.",
+      "depois": "Dizer que elas devem ser encorajadas é um erro.",
+      "modo": "conservador"
+    },
+    {
+      "id": "V11-08587",
+      "antes": "Desse modo, a norma define da seguinte forma.",
+      "depois": "A norma define da seguinte forma.",
+      "modo": "conservador"
+    }
+  ],
+  "pendentes": [
+    {
+      "id": "V11-00075",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ele deve ser confiável e íntegro, pois isso garante que as decisões baseadas nele sejam fundamentadas e eficazes.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00108",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ela envolve a análise e interpretação de dados para gerar conhecimento e insights, que são fundamentais para a tomada de decisões.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00109",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma, ele é formado pelo binômio.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00162",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Então dizer que somente a quantidade é importante é um erro.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-00170",
+      "subject": "Direito Constitucional",
+      "question": "Elas não têm aplicação imediata e dependem de atuação estatal posterior para produzirem efeitos práticos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00222",
+      "subject": "Auditoria Fiscal",
+      "question": "DANFE não é nota fiscal, nem a substitui, servindo apenas como instrumento auxiliar para consulta da NF-e.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00231",
+      "subject": "Contabilidade Pública",
+      "question": "Elas são usuárias primordiais da Contabilidade Pública e do PCASP (Plano de Contas Aplicado ao Setor Público).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00297",
+      "subject": "Direito Constitucional",
+      "question": "Podem ser divididas em facultativas ( estabelecem uma faculdade para o Poder Público) e impositivas (trazem um mandamento, uma obrigação).",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-00314",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "A informação caracteriza-se por ser frequentemente tácita, bem como por ser de estruturação e captura difíceis em máquinas.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-00315",
+      "subject": "Auditoria Fiscal",
+      "question": "Ademais, vimos que o credenciamento é obrigatório para a emissão de NF-e.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00337",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "A LOA é classificada, na doutrina majoritária, como.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00390",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Um loop que sempre se repetirá em um determinado número de vezes é representado pelo código SE ENTÃO SENÃO FIM SE.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00424",
+      "subject": "Contabilidade Pública",
+      "question": "A elaboração de tais demonstrações de acordo com as normas definidas no MCASP é facultativa para.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00505",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ela também é o custo de oportunidade de cursar o ensino médio.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00512",
+      "subject": "LTE",
+      "question": "Diante disso passemos a analisar os itens (todos são FG dos 2 impostos).",
+      "reasons": [
+        "prefixo_contextual_alternativa",
+        "residuo_de_questao_aula"
+      ]
+    },
+    {
+      "id": "V11-00515",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Então, como i = 0, e o aumento a cada laço é incremental, faremos 7 loops (de i = 0 até i = 6).",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-00516",
+      "subject": "LTE",
+      "question": "III – Operação não é entre contribuintes do ICMS = sinal vermelho para a regra = IPI integra a BC do ICMS.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-00517",
+      "subject": "LTE",
+      "question": "IV - Operação entre contribuintes (industrial é contribuinte do ICMS) + para industrialização = sinal verde para a regra = IPI não integra BC do ICMS.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-00518",
+      "subject": "LTE",
+      "question": "Vimos durante a aula que cada Estado é livre para estipular suas alíquotas internas por lei.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-00524",
+      "subject": "Contabilidade Pública",
+      "question": "Os relatórios fiscais são utilizados, principalmente, para.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00537",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "A condição Se é z = 3 e, como iniciamos o programa com z = 3, iniciaremos o bloco fazendo as operações elencadas no bloco Se.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00554",
+      "subject": "Matemática Financeira",
+      "question": "Dessa forma, essas duas grandezas são inversamente proporcionais.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00655",
+      "subject": "Direito Tributário",
+      "question": "Dessa forma são irrelevantes nessa definição.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00677",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Como x + y = 17 é menor que 19, caímos no bloco Se.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00682",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma, eles não possuem o mesmo sentido, motivo pelo qual o item é ERRADO.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00726",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ele realmente disponibiliza diversos data sets em formatos PDF, CSV, HTML e JSON (kembrando que, desde 2008, PDF é um formato aberto).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00758",
+      "subject": "Contabilidade Geral",
+      "question": "Há que se observar que o ativo é maior do que o passivo exigível por terceiros (isto é, obrigações).",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-00804",
+      "subject": "Auditoria Fiscal",
+      "question": "Exemplos clássicos disso, quando falamos na perspectiva do ICMS são a verificação da.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00806",
+      "subject": "Direito Tributário",
+      "question": "A definição legal do fato gerador é interpretada abstraindo-se.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00850",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles não definem nem descrevem o destino final do arquivo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-00854",
+      "subject": "Estatística e Probabilidade",
+      "question": "A média de votos para os candidatos de direita é dada por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-00859",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Existem – sim – ferramentas que permitem ler, extrair e editar metadados de arquivos de imagens produzidas por câmeras digitais.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-00914",
+      "subject": "LTE",
+      "question": "III – Em todas as operações interestaduais que contenha o Estado do RN como remetente, a alíquota aplicada é de 12%.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-00917",
+      "subject": "LTE",
+      "question": "IV – a alíquota incidente na importação é a alíquota interna.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-00997",
+      "subject": "Contabilidade Pública",
+      "question": "Deve-se adotar como função aquela que é típica ou principal do órgão.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-01091",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Tal retração da oferta é representada por um deslocamento da curva para a esquerda e para cima.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01115",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles não são elaborados com uma estrutura fixa, dificultando sua análise e processamento.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01123",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Eles são armazenados de forma ordenada, o que quer dizer que as posições são crescentes, mas não seus valores.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01138",
+      "subject": "Direito Administrativo",
+      "question": "II – A publicidade é condição de eficácia dos atos administrativos, razão pela qual pode caracterizar prática de ato de improbidade administrativa a desobediência ao dever de publicação de atos oficiais.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01151",
+      "subject": "Direito Administrativo",
+      "question": "II – em geral, a publicidade é fator de eficácia dos atos administrativos, ou seja, é condição para o ato produzir os seus efeitos.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01168",
+      "subject": "Direito Administrativo",
+      "question": "IV – a teoria do fato consumado decorre da aplicação do princípio da segurança jurídica e defende a manutenção de determinadas situações após o decurso de longo período de tempo.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01195",
+      "subject": "Direito Administrativo",
+      "question": "Ela conceitua corretamente o princípio da proteção à confiança, o qual é aplicado, por exemplo, para assegurar a validade dos atos praticados pelos agentes de fato perante terceiros de boa- fé.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01277",
+      "subject": "LTE",
+      "question": "Então é para lá que o imposto será devido (e não para AL).",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-01311",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Dessa forma é possível prescrever esquemas completos existindo poucas restrições de integridade com relação à semântica dos atributos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01316",
+      "subject": "LTE",
+      "question": "Considerando que os doadores, os donatários e os herdeiros são todos pessoas naturais (pessoas físicas), está correto o que se afirma APENAS em.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01405",
+      "subject": "Matemática Financeira",
+      "question": "A porcentagem de bolinhas pesadas e brancas nesse saco é de.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01431",
+      "subject": "Direito Administrativo",
+      "question": "Ocorre, todavia, que vários atos administrativos têm como fim o interesse público, mas ao mesmo tempo beneficiam particulares.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-01461",
+      "subject": "Direito Constitucional",
+      "question": "Então, existem basicamente 03 situações que não precisam de autorização judicial são elas.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-01468",
+      "subject": "Direito Constitucional",
+      "question": "III - Não é permitido ingressar na casa de alguém no período noturno, ainda que com mandado judicial.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01480",
+      "subject": "Matemática Financeira",
+      "question": "Então, 115% corresponde a 46 reais e 100% (valor original do produto sem aumento) corresponde a 𝑥.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-01481",
+      "subject": "Direito Constitucional",
+      "question": "II - O direito de propriedade não tem natureza de direito absoluto.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01498",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Ela declara que o valor da variável é final e não pode ser modificado.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01499",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Pode haver filtragem ou limpeza durante a transformação, mas o foco do processo é preparar e carregar dados úteis, e não os remover permanentemente.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-01506",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Diego Carvalho e Renato da Costa As ferramentas de ETL (Extract, Transform, Load) são projetadas para.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01507",
+      "subject": "Auditoria Fiscal",
+      "question": "Tais situações exigem que o Auditor Fiscal intime a empresa sob fiscalização para que comprove a origem do numerário utilizado em tais aplicações.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01657",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Todas são legalmente válidas e igualmente admissíveis, desde que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01707",
+      "subject": "Matemática Financeira",
+      "question": "Sabendo-se que, para 2020, o orçamento público desse município foi 10% maior que o de 2019, então é verdade afirmar que, comparados ao de 2017, o orçamento público de 2020 foi maior em.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01777",
+      "subject": "Estatística e Probabilidade",
+      "question": "Como ambas possuem largura igual a 5, temos que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01846",
+      "subject": "Direito Constitucional",
+      "question": "XLII - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-01876",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Desta feita é recomendado que se avalie a exequibilidade dos planos gerados na empresa, bem como se as equipes estão aptas a executarem os mesmos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01892",
+      "subject": "Direito Constitucional",
+      "question": "Eles possuem força de emenda constitucional, desde que cumulativamente.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01919",
+      "subject": "Contabilidade Geral",
+      "question": "Eles ficam como retificadora da conta fornecedores e são apropriados ao resultado como despesa conforme o prazo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01922",
+      "subject": "Estatística e Probabilidade",
+      "question": "Eles correspondem, respectivamente, ao primeiro, segundo e terceiro traços da caixa, sendo que a mediana corresponde ao segundo quartil.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01929",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Os créditos adicionais classificam-se em.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-01978",
+      "subject": "LTE",
+      "question": "Ele alega que o instrumento não tem fins comerciais porque ele não toca em público e não aufere nenhuma renda com este hobby.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-01994",
+      "subject": "Direito Constitucional",
+      "question": "Tal princípio decorre do princípio do devido processo legal.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02009",
+      "subject": "Direito Constitucional",
+      "question": "XXXIV – são a todos assegurados, independentemente do pagamento de taxas.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-02067",
+      "subject": "Direito Constitucional",
+      "question": "Então é possível a prisão preventiva antes do trânsito em julgado, mas não a prisão como execução provisória da pena.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02077",
+      "subject": "Segurança da Informação e Redes",
+      "question": "I – Trata-se se segurança física, pois a itenção é não permitir o acesso direto ao equipamento, no caso, o Access Point.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-02083",
+      "subject": "Segurança da Informação e Redes",
+      "question": "IV – Vejam que o interesse é em proteção de local, além de acesso aos computadores e impressoras, que também são itens materiais.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-02085",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Ela procurará o primeiro elemento que é compatível com o definido, e irá retornar o índice dele.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02131",
+      "subject": "Direito Tributário",
+      "question": "Tal imunidade é prevista no artigo 150, inciso VI, alínea, c da Constituição.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02133",
+      "subject": "Matemática Financeira",
+      "question": "Então, vamos calcular a taxa anual que é prorcional a 6% ao mês.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02139",
+      "subject": "Engenharia de Software",
+      "question": "Ela orienta nomes e conceitos no código, mas não é “usada para a codificação dos módulos” como finalidade principal.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02185",
+      "subject": "LTE",
+      "question": "Existe responsável solidário ou subsidiário, que não é o caso, pois a empresa é contribuinte.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-02222",
+      "subject": "Matemática Financeira",
+      "question": "Então, para o cálculo de juros ordinários utiliza-se o ano de 360 dias.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02258",
+      "subject": "Direito Administrativo",
+      "question": "Ele se opõe ao sistema inglês, ou da unicidade de jurisdição, que é adotado no Brasil.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02302",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ela indica se dois bens são substitutos ou complementares, dependendo de ser positiva ou negativa.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02348",
+      "subject": "Direito Administrativo",
+      "question": "O sistema francês – ou de contencioso administrativo ou sistema de dualidade de jurisdição – caracteriza-se pela existência do Poder Judiciário e da Justiça Administrativa.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-02407",
+      "subject": "Direito Constitucional",
+      "question": "Ele só é viável quando a falta total ou parcial de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02413",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ele não é um método de autenticação, mas sim um meio de enviar dados em tempo eal entre dois sistemas ou aplicativos distintos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02455",
+      "subject": "Segurança da Informação e Redes",
+      "question": "II - O protocolo MQTT, mesmo implementado no RabbitMQ utiliza o modelo pub/sub baseado em tópicos e não a publicação de mensagens dentro do contexto de um link.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-02461",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Ela recebe como parâmetro dois valores – a e b, que correspondem aos valores dos elementos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02465",
+      "subject": "Direito Administrativo",
+      "question": "Elas prestam atividades privadas, já que não fazem parte do Estado, porém de interesse público, já que são comodidades prestadas à população, como a educação e a saúde.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02466",
+      "subject": "Direito Administrativo",
+      "question": "Maria Di Pietro, ao fazer uma comparação entre as entidades paraestatais e as entidades da administração indireta utiliza o termo “serviço social autônomo”, explicando que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-02470",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ela se refere, na verdade, a uma demanda cada vez mais elástica, o que também já nos permite descartar o item “d”.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02496",
+      "subject": "Matemática Financeira",
+      "question": "Então, 𝑀𝑓𝑖𝑛𝑎𝑙= 𝑀1 + 𝑀2 Em regime de Juros compostos, o Montante é calculado pela seguinte equação.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02497",
+      "subject": "Segurança da Informação e Redes",
+      "question": "O fator de posse do usuário, ou seja, aquilo que ele tem, pode ser implementado com.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-02525",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Elas não definem relações no esquema externo, mas sim facilitam o acesso a dados.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02530",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ele funciona como uma \"chave\" que autentica o usuário e protege o software contra cópias e uso não autorizado.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02636",
+      "subject": "Engenharia de Software",
+      "question": "Então, o código é escrito e, finalmente, os testes são executados para garantir que a regra de negócio esteja funcionando corretamente.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02652",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles permitem o acesso cruzado entre objetos de diferentes esquemas, facilitando a consulta e a manipulação de dados.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02654",
+      "subject": "Direito Tributário",
+      "question": "Tal delegação compreende as garantias e os privilégios processuais que competem à pessoa jurídica de direito público que a conferir.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02662",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ele sabe que a curva de oferta do produto é vertical e que, ofertando a R$ 0,40 cada banana, ele venderá todas as 100 bananas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02670",
+      "subject": "Direito Tributário",
+      "question": "Tal imposto é de competência compartilhada entre Estados, DF e Municípios, mas instituído por lei complementar nacional.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02700",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Existem regimes diferenciados que permitem a distinção em função da natureza do bem ou serviço (essencialidade), como as reduções de 60% ou 100% para saúde, educação e cesta básica.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-02723",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Ele não \" é contribuinte que opta por não ser\".",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02746",
+      "subject": "Estatística e Probabilidade",
+      "question": "Como o desvio padrão é a raiz quadrada da variância, temos que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-02775",
+      "subject": "Contabilidade Pública",
+      "question": "Tais reavaliações frequentes são desnecessárias no caso de ativos intangíveis sem variações significativas do seu valor justo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02825",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Então, estamos comparando 1 == 16 - o que é falso.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-02858",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Tal entendimento decorre da leitura combinada dos incisos IX e X do artigo 11.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02899",
+      "subject": "Contabilidade Geral",
+      "question": "Tais métodos incluem o método da linha reta/taxas constantes, o método dos saldos decrescentes e o método de unidades produzidas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02930",
+      "subject": "Segurança da Informação e Redes",
+      "question": "O equipamento instalado pela equipe de TI utiliza recursos de.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-02960",
+      "subject": "Contabilidade Geral",
+      "question": "Tais reavaliações frequentes são desnecessárias para itens do ativo imobilizado que não sofrem mudanças significativas no valor justo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02975",
+      "subject": "Direito Constitucional",
+      "question": "Tal benefício foi instituído a esses trabalhadores, porque todo profissional que labora em período noturno é submetido a um desgaste maior do que aquele que labora em período diurno.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-02983",
+      "subject": "Direito Administrativo",
+      "question": "Existe ainda uma terceira classificação, menos usual, que é a territorial, que dá origem aos territórios federais.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03017",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, precisamos saber qual é o preço atual.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03022",
+      "subject": "Contabilidade Geral",
+      "question": "Tais custos representam a obrigação em que a entidade incorre quando o item é adquirido ou como consequência de usá-lo durante determinado período para finalidades diferentes da produção de estoque durante esse período.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03024",
+      "subject": "Direito Tributário",
+      "question": "Tal dispositivo estabelece que \"interpreta-se literalmente a legislação tributária que disponha sobre.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03065",
+      "subject": "Engenharia de Software",
+      "question": "Eles ajudam bastante, mas não são objetos genéricos capazes de atender a todas as necessidades de testes de uma aplicação.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03094",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Eles não atuam diretamente na Camada Física ou de Enlace, essa é a função de switches e hubs.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03125",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Há uma corrente que defende o ponto de vista que existem situações que são impositivas e que no geral é apenas autorizativo.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03152",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Eles permitem que os usuários reutilizem códigos, scripts e comandos, facilitando a colaboração entre equipes.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03170",
+      "subject": "Direito Constitucional",
+      "question": "Elas não são obrigadas a apresentar atestados médicos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03219",
+      "subject": "Estatística e Probabilidade",
+      "question": "A permutação circular de 𝑛 elementos é dada por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-03230",
+      "subject": "Contabilidade Pública",
+      "question": "Tais bens são aqueles explorados através da extração ou aproveitamento mineral ou florestal, por exemplo, uma floresta mantida com fins de comercialização de madeira.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03236",
+      "subject": "Direito Administrativo",
+      "question": "II - A Administração Indireta, que compreende as seguintes categorias de entidades, dotadas de personalidade jurídica própria.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03239",
+      "subject": "LTE",
+      "question": "Desta forma, não é necessário que o Regulamento (Decreto) o faça.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03251",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ela não estabelece relações entre duas relações, mas sim assegura a integridade dos dados em uma única tabela.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03330",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Elas são atualizadas em tempo real, refletindo as mudanças nas tabelas subjacentes.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03340",
+      "subject": "Direito Administrativo",
+      "question": "Tal controle caracteriza-se, no entanto, pela inexistência de relação hierárquica.",
+      "reasons": [
+        "referente_dependente_contexto",
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-03362",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Elas representam efetivamente uma adição ao patrimônio do Estado e são utilizadas para a execução de políticas públicas, pagamento de despesas correntes, investimentos e outros fins.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03371",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Elas incluem impostos, taxas, contribuições de melhoria, receitas patrimoniais (como aluguéis), receitas de serviços, transferências correntes e outras.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03372",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Elas incluem operações de crédito, alienação de bens, amortização de empréstimos concedidos, transferências de capital, entre outras.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03373",
+      "subject": "Segurança da Informação e Redes",
+      "question": "III - ERRADO - As DMZs não são executadas na borda de um PEP.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03379",
+      "subject": "Direito Administrativo",
+      "question": "Então, podemos dizer, com base na legislação, que a descentralização administrativa é um princípio.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03407",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "XML-HTTP Request é uma API de navegador responsável por enviar interações com o navegador para o servidor através de operações AJAX.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03421",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, se todo bem de Giffen é inferior, nenhum bem normal é Bem de Giffen.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03443",
+      "subject": "Direito Tributário",
+      "question": "A evasão fiscal caracteriza-se pela simulação, fraude ou sonegação, violando a lei.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-03481",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Tais receitas não integram o Orçamento Público e constituem passivos exigíveis do ente, de tal forma que o seu pagamento não está sujeito à autorização legislativa.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03490",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Eles são sistemas gerenciadores que recebem, armazenam e encaminham os eventos de mensagem recebidos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03504",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Há outros campos que são necessários para implementação do protocolo.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03524",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ele acaba fazendo parte do protocolo 801.1q uma vez que utiliza 3 dos 16 bits acrescentados pelo 802.1q (VLAN).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03545",
+      "subject": "Direito Administrativo",
+      "question": "Pode não ser “100%”, mas é uma estratégia a se adotar.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03581",
+      "subject": "Engenharia de Software",
+      "question": "Ele representa o estado do sistema e aplica as regras que orientam o funcionamento da aplicação.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03596",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Elas utilizam os domínios Point-to-Point e Publish- Subscribe, com o depósito de mensagens em uma fila para que os consumidores as tratem no momento correto.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03604",
+      "subject": "Direito Administrativo",
+      "question": "IV – em regra, os órgãos públicos não possuem personalidade jurídica.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03611",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Existem sistemas de mensageria que permitem a persistência de mensagens.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03640",
+      "subject": "Direito Tributário",
+      "question": "II- O fato gerador de impostos depende de atividade estatal específica, definida em lei, como retribuição ao contribuinte.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03647",
+      "subject": "Direito Constitucional",
+      "question": "Então, no momento do nascimento apenas João e Jaqueline são brasileiros natos.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03705",
+      "subject": "Direito Administrativo",
+      "question": "Elas são órgãos integrantes de uma mesma pessoa jurídica, caracterizando a distribuição interna de competências na Administração Direta.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03721",
+      "subject": "Contabilidade Geral",
+      "question": "Ela destaca que o fundo de comércio adquirido é um ativo intangível.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03745",
+      "subject": "Contabilidade Geral",
+      "question": "Ele se aplica ao sistema operacional de um computador.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03749",
+      "subject": "Segurança da Informação e Redes",
+      "question": "II - ACESS (untagged) - quadros que entram e saem pela porta não possuem informação sobre a VLAN a que pertencem.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-03753",
+      "subject": "Direito Administrativo",
+      "question": "Tais normas, assim como os demais atos normativos são editadas com determinada discricionariedade, justamente por prescreverem assuntos que, em geral, são abstratos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03772",
+      "subject": "Direito Administrativo",
+      "question": "Deve-se observar, todavia, que essa regra não se aplica à OAB, que não é autarquia e, por conseguinte, não compõe a Administração Pública.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-03801",
+      "subject": "LTE",
+      "question": "Vimos durante a aula que o ICMS realmente não incide em operações de arrendamento mercantil (leasing) porém incide na venda do bem ao arrendatário.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03803",
+      "subject": "Contabilidade Pública",
+      "question": "Tais valores não são considerados na receita orçamentária do exercício de referência nem serão considerados no cálculo do déficit ou superávit orçamentário já que foram arrecadados em exercícios anteriores.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03855",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Então é errado afirmar que não possibilita a realização de testes automatizados.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-03871",
+      "subject": "Direito Constitucional",
+      "question": "A Carta Magna prevê que será declarada a perda da nacionalidade do brasileiro que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-03894",
+      "subject": "Direito Constitucional",
+      "question": "Ele nasceu no exterior, mas é filho de mãe brasileira que estava a serviço do Brasil.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03903",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Uma contramedida efetiva para tal cenário é impor uma regra que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-03961",
+      "subject": "Direito Administrativo",
+      "question": "Tal mecanismo é uma clara expressão do princípio da impessoalidade, já que um agente não pode promover-se pessoalmente por um ato praticado em nome do Estado.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03962",
+      "subject": "Engenharia de Software",
+      "question": "Elas simplesmente produzem informações (eventos) que são distribuídas para todos os consumidores que possam estar interessados, de forma assíncrona e sem acoplamento direto entre as partes.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03983",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Tal implementação permite combater ataques como o DNS POISONING.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-03988",
+      "subject": "Matemática Financeira",
+      "question": "Ela apenas questiona se 20% é a taxa de juros.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04017",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ele não depende de outros programas para se propagar.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04030",
+      "subject": "Estatística e Probabilidade",
+      "question": "Eles são as únicas unidades amostrais do processo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04099",
+      "subject": "Direito Administrativo",
+      "question": "Então, a lei complementar define a área de atuação das fundações públicas, mas não das demais entidades.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04112",
+      "subject": "Direito Administrativo",
+      "question": "Então, a AGERO é um exemplo de autarquia – CORRETA.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04137",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Foi identificado um malware que é capaz de se propagar automaticamente, explorando vulnerabilidades existentes em programas instalados nos computadores infectados, tornando-os zumbis.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-04168",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "II - Conteinerização (contêiner) é um processo de computação que utiliza uma pequena fração do recurso de hardware para viabilizar a execução de aplicativos de forma mais eficiente e isolada.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04169",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "III -As máquinas virtuais são medidas em megabyte.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04195",
+      "subject": "Estatística e Probabilidade",
+      "question": "O tamanho amostral de um estrato x é calculada como.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04197",
+      "subject": "Contabilidade Pública",
+      "question": "Segundo o MCASP, o Balanço Patrimonial é composto por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04206",
+      "subject": "Estatística e Probabilidade",
+      "question": "O tamanho da amostra de um estrato 𝑥 é dada por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04233",
+      "subject": "Contabilidade Geral",
+      "question": "Tais itens operacionais são classificados como passivos circulantes mesmo que estejam para ser liquidados em mais de doze meses após a data do balanço patrimonial.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04240",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "Sendo assim, a afirmativa que aponta todos os comandos corretos é a letra E.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04265",
+      "subject": "Contabilidade Geral",
+      "question": "C - IRPF a recolher (↑Passivo) Em síntese, o IRPF não é uma despesa da entidade.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04338",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "II - Kubernetes é uma técnica que utiliza contêineres para virtualização de serviços e recursos computacionais a nível de sistema operacional.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04340",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Eles são ataques sofisticados, planejados para um alvo específico, buscando permanência na rede sem ser detectado.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04346",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "II – Kubernetes é um sistema PaaS (plataforma como serviço) monolítico que opera no nível do hardware.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04348",
+      "subject": "Desenvolvimento de Sistemas",
+      "question": "III – Um cluster Kubernetes consiste em um conjunto de servidores de processamento, chamados nós, que executam aplicações containerizadas.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-04407",
+      "subject": "Direito Administrativo",
+      "question": "Ela está “quase 100%”, salvo o trecho que menciona que as agências são “fundações em regime especial”.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04465",
+      "subject": "Contabilidade Geral",
+      "question": "Elas são valores recebidos pela empresa (dos sócios ou de terceiros) que não se configuram como receita, isto é, não transitam pelo resultado do exercício, sendo contabilizadas diretamente à conta de Patrimônio Líquido.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04540",
+      "subject": "Matemática Financeira",
+      "question": "Então, na avaliação de projetos pelo método do valor presente líquido (VPL), o fluxo de caixa do projeto é sempre descontado a valor presente pela taxa mínima de atratividade (TMA) associada ao projeto.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04568",
+      "subject": "Matemática Financeira",
+      "question": "Então, repito, a última aula é de extrema importância para entender a análise de investimentos.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04584",
+      "subject": "Engenharia de Software",
+      "question": "Então, a justificativa apresentada na frase é que não se sustenta para impedir esse uso.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04649",
+      "subject": "Direito Constitucional",
+      "question": "Pode-se dizer, portanto, que é facultada a vinculação entre candidaturas em âmbito nacional, estadual, distrital ou municipal.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-04688",
+      "subject": "Engenharia de Software",
+      "question": "Então, dizer que ele tem pouca capacidade de expansão e de adequação à rede contraria essa característica do protocolo.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04719",
+      "subject": "Engenharia de Software",
+      "question": "Ele se relaciona à descrição e descoberta de serviços web, enquanto JSON é um formato de troca de dados.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04745",
+      "subject": "Segurança da Informação e Redes",
+      "question": "O processo da assinatura digital compreende, inicialmente, o uso de __I__ para criar um resumo do documento, seguido da criptografia do resumo utilizando Chave __II__.",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-04747",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Finalmente, o autor do documento utiliza-se de __III__ para assinar o documento juntamente com o resultado da etapa anterior.",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-04753",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Então pessoal, esse é o funcionamento básico da assinatura digital, garantindo a integridade, autenticidade e não-repúdio.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04812",
+      "subject": "Direito Tributário",
+      "question": "Quanto à possibilidade de suspensão da exigibilidade do crédito tributário é correto o que se encontra em.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04832",
+      "subject": "Direito Constitucional",
+      "question": "A República Federativa do Brasil caracteriza-se pela concessão de soberania à União, aos estados, ao Distrito Federal e aos municípios.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-04858",
+      "subject": "Matemática Financeira",
+      "question": "Então, o prazo máximo, na hora do investimento, que você aceita para recuperação do capital inicial são esses 5 anos.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-04868",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Lembremos que o certificado digital é um documento público, logo, não se aplica o contexto de chaves privadas, eliminando as alternativas D e E.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-04901",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Pode ocorrer arrecadação de receitas que não passaram pelo lançamento, como é o caso de uma doação em espécie recebida pelos entes públicos.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-04921",
+      "subject": "Contabilidade Geral",
+      "question": "Elas são deduções da receita bruta e não da receita líquida.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-04927",
+      "subject": "Contabilidade Geral",
+      "question": "Tal entendimento é reforçado no trecho destacado do item 9 do CPC 26.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05041",
+      "subject": "Contabilidade Pública",
+      "question": "Como regra, as demonstrações contábeis separadas são apresentadas adicionalmente às demonstrações contábeis consolidadas, exceto quando.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-05066",
+      "subject": "Contabilidade Pública",
+      "question": "Podem existir diferenças entre o regime (caixa, competência ou alguma modificação desses regimes) que é utilizado na elaboração e apresentação do orçamento, e o regime utilizado na elaboração das demonstrações contábeis.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05090",
+      "subject": "Contabilidade Pública",
+      "question": "Tais problemas são evidenciados por indicadores observáveis relacionados a determinados eventos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05134",
+      "subject": "Contabilidade Pública",
+      "question": "Diferente da iniciativa privada, onde termos como \"centro de lucro\" são comuns, no setor público o foco recai sobre a responsabilização (accountability).",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05171",
+      "subject": "Contabilidade Pública",
+      "question": "Faz sentido, porque o Foco em Custos é modelo padronizado de abrangência nacional, e o custeio direto é o de sistemática mais simples de ser adotada.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05234",
+      "subject": "Direito Administrativo",
+      "question": "II – a aplicação sim, mas a cobrança da multa não possui autoexecutoriedade – ERRADA.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05235",
+      "subject": "Direito Administrativo",
+      "question": "III – licença e autorização são atos negociais, e não normativos.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05236",
+      "subject": "Direito Administrativo",
+      "question": "IV – esse é o entendimento do STF (RE 658570/MG).",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05244",
+      "subject": "Direito Administrativo",
+      "question": "Eles preparam uma atividade jurisdicional penal, mas são servidores do Executivo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05264",
+      "subject": "Direito Administrativo",
+      "question": "Tal tema é muito comum na atuação das agências reguladoras ou de outros órgãos eminentemente técnicos (CVM, Bacen, CNT, etc.).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05267",
+      "subject": "Direito Administrativo",
+      "question": "Tal competência é da vigilância sanitária – ERRADA.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05281",
+      "subject": "Direito Administrativo",
+      "question": "I A coercibilidade caracteriza-se pela possibilidade de a administração pública executar decisões pelos próprios meios, sem recorrer previamente ao Poder Judiciário.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-05282",
+      "subject": "Direito Administrativo",
+      "question": "II A autoexecutoriedade caracteriza-se pela obrigação de os administrados observarem os comandos emitidos por atos de polícia.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-05285",
+      "subject": "Direito Administrativo",
+      "question": "II - A autoexecutoriedade caracteriza-se pela obrigação de os administrados observarem os comandos emitidos por atos de polícia – essa é a coercibilidade, como vimos na afirmativa I – ERRADA.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05286",
+      "subject": "Direito Administrativo",
+      "question": "IV - O poder de polícia é discricionário, mas limitado por lei – isso mesmo.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05309",
+      "subject": "Direito Administrativo",
+      "question": "Tais atos, entretanto não geram efeitos jurídicos imediatos e, por isso, não são atos administrativos em sentido material.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05330",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma são válidas todas as situações atingidas antes da revogação, motivo pelo qual os efeitos passados são preservados.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05333",
+      "subject": "Direito Administrativo",
+      "question": "Então, o efeito da revogação é ex nunc (tapa na nuca).",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05364",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma é sempre a lei que define a finalidade de interesse público do ato.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05398",
+      "subject": "Direito Administrativo",
+      "question": "Então, as disposições penais referentes às licitações, os critérios de desempate e as disposições sobre o pregão se aplicam às empresas estatais, motivo pelo qual está errada a assertiva.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05400",
+      "subject": "Direito Administrativo",
+      "question": "Então, não está a Lei de Licitações somente se aplica às entidades de direito público, já que também é aplicável às fundações públicas de direito privado.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05430",
+      "subject": "Direito Administrativo",
+      "question": "Há uma urgência de atendimento, pois a escola precisa voltar a funcionar, mas isso não é calamidade – ERRADA.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05431",
+      "subject": "Direito Administrativo",
+      "question": "Então, a celebração pode sim prescindir de licitação, pois é uma hipótese de dispensa legalmente prevista.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05454",
+      "subject": "Direito Administrativo",
+      "question": "Então, na verdade, os projetos básico e executivo são elaborados pelo contratado.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05467",
+      "subject": "Direito Administrativo",
+      "question": "Então é admitida a celebração de contratos verbais, e a exceção não está atrelada a uma modalidade licitatória, mas sim ao valor pré-determinado na Lei de Licitações.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05469",
+      "subject": "Direito Administrativo",
+      "question": "Tal situação é denominada step in right, que significa que a seguradora assumi a obrigação de gerenciamento, execução e entrega do empreendimento quando a contratada falhar no cumprimento de suas obrigações.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05505",
+      "subject": "Direito Administrativo",
+      "question": "O termo serviço público possui vários sentidos, mas para facilitar vamos empregar o conceito de José dos Santos Carvalho Filho, que define serviço público como.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-05514",
+      "subject": "Direito Administrativo",
+      "question": "III - na verdade, a rescisão é a forma de desfazimento que decorre de iniciativa do particular, e é determinada pelo Poder Judiciário – ERRADO.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05529",
+      "subject": "Direito Administrativo",
+      "question": "Existem várias competências “privativas”, no texto constitucional, que ora são passíveis de delegação e ora não o são.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05541",
+      "subject": "Direito Administrativo",
+      "question": "O recurso hierárquico impróprio caracteriza-se por ser uma via de impugnação direcionada a autoridades ou órgãos não dotados de relação direta e imediata de subordinação hierárquica à autoridade que expediu o ato.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-05574",
+      "subject": "Direito Administrativo",
+      "question": "Ocorre que dizer que é uma \"prerrogativa\" não significa que é \"exclusivo\" do Poder Judiciário.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05580",
+      "subject": "Direito Administrativo",
+      "question": "O recurso interposto por Caio caracteriza-se como recurso hierárquico próprio, só sendo cabível se previsto expressamente em lei.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-05601",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma é necessário que o lesado comprove a omissão do Estado, que deixou de agir quando tinha obrigação.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05604",
+      "subject": "Direito Administrativo",
+      "question": "III - o STF entende que, em regra, nesses casos, a responsabilidade não é transferida ao Estado.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05607",
+      "subject": "Direito Administrativo",
+      "question": "Ocorre que, em determinadas situações, o Estado tem um dever específico de cuidado de determinadas pessoas que estão sob sua guarda.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05614",
+      "subject": "Direito Administrativo",
+      "question": "Existem algumas decisões do STJ que consideram que é possível mover a ação diretamente contra o agente público, mas por enquanto as bancas têm levado em consideração o posicionamento do STF.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05617",
+      "subject": "Direito Administrativo",
+      "question": "IV - A culpa concorrente da vítima é causa excludente da responsabilidade civil do Estado – a culpa concorrente atenua a responsabilidade, pela concorrência da ação estatal e da própria vítima no evento danoso – ERRADA.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05619",
+      "subject": "Direito Administrativo",
+      "question": "Existem, no entanto, situações em que é possível o afastamento de tal responsabilização em razão das causas excludentes de responsabilização, entre as quais se cita o seguinte exemplo.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05620",
+      "subject": "Direito Administrativo",
+      "question": "Eles são excludentes da responsabilidade objetiva, mas admitem a responsabilização subjetiva em decorrência de omissão do Poder Público – ERRADA.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05651",
+      "subject": "Direito Administrativo",
+      "question": "Eles são regidos pelas regras da CLT, firmando contrato de trabalho com a entidade pública empregadora.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05679",
+      "subject": "Direito Administrativo",
+      "question": "IV – de acordo com a CF são a todos assegurados, independentemente do pagamento de taxas.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05680",
+      "subject": "Direito Administrativo",
+      "question": "Ocorre que isso não consta textualmente na Lei 9.784/1999 nem tampouco podemos dizer que isso é decorrência da “eficiência” ou da “celeridade”.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05681",
+      "subject": "Direito Administrativo",
+      "question": "Tais atos “diferentes” decorrem, na verdade, da situação em si, que não permite que o ato seja praticado por escrito – ERRADA.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05682",
+      "subject": "Direito Administrativo",
+      "question": "Dessa forma é possível flexibilizar as formalidades quando o resultado desejado tenha sido alcançado por outro meio.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05697",
+      "subject": "Direito Administrativo",
+      "question": "Há, na jurisprudência, uma exceção, que é o Presidente da República (PR).",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-05704",
+      "subject": "Direito Administrativo",
+      "question": "Então, a voluntariedade do agente não é suficiente!.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05708",
+      "subject": "Direito Administrativo",
+      "question": "Tal penalidade é aplicável no caso de enriquecimento ilícito (até 14 anos) ou de lesão ao erário (até 12 anos).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05711",
+      "subject": "Direito Administrativo",
+      "question": "Tais empregados, em regra, atuam nas empresas públicas e sociedades de economia mista que tem personalidade jurídica de direito privado.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05768",
+      "subject": "Direito Administrativo",
+      "question": "Tal delito é considerado FORMAL, ou seja, considera-se consumado com a mera prática da conduta, sendo desnecessário, para fins de consumação do delito, que haja o efetivo pagamento da despesa ordenada.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05825",
+      "subject": "Direito Constitucional",
+      "question": "II - A responsabilidade da companhia de transporte ferroviário não é excluída por viajar a vítima como \"pingente\", podendo ser atenuada se demonstrada a culpa concorrente.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05829",
+      "subject": "Direito Constitucional",
+      "question": "Dessa maneira é afastada a disposição do teto remuneratório quanto ao somatório dos vencimentos dos servidores públicos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05830",
+      "subject": "Direito Constitucional",
+      "question": "Tal princípio determina que os serviços públicos sejam prestados com qualidade e baseados na adequação às necessidades da sociedade.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05834",
+      "subject": "Direito Constitucional",
+      "question": "Dessa forma é errado afirmar que o servidor público federal ocupante de mandato eletivo deve ser, em qualquer caso, afastado do cargo, do emprego ou da função que ocupa.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05849",
+      "subject": "Direito Constitucional",
+      "question": "I - No âmbito federal, o Poder Legislativo é exercido pelo Congresso Nacional, cujos membros são eleitos segundo o princípio majoritário, para mandato de quatro anos.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-05862",
+      "subject": "Direito Constitucional",
+      "question": "Dessa forma é inconstitucional a delegação legislativa de poderes aos governadores dos estados e do Distrito Federal para, mediante decreto, criar cargos públicos, fixando-lhes denominações, remunerações e atribuições.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05878",
+      "subject": "Direito Constitucional",
+      "question": "Então é um dever jurídico de cada um dos membros da CPI preservar o sigilo dos dados transmitidos.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05923",
+      "subject": "Direito Constitucional",
+      "question": "Então é possível que uma proposta de emenda constitucional venha a estabelecer o voto facultativo.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-05948",
+      "subject": "Direito Constitucional",
+      "question": "Tal previsão é aplicável também às turmas recursais dos juizados especiais.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05971",
+      "subject": "Direito Constitucional",
+      "question": "Tal recurso tem natureza ordinária, estando expressamente previsto na Constituição Federal.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-05994",
+      "subject": "Direito Constitucional",
+      "question": "Tal princípio permite que os integrantes do Ministério Público possam ser substituídos uns pelos outros ao longo do processo, desde que sejam da mesma carreira.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06029",
+      "subject": "Direito Constitucional",
+      "question": "Será preventivo quando a fiscalização de constitucionalidade incide sobre a norma em fase de elaboração, no curso do processo legislativo.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06051",
+      "subject": "Direito Constitucional",
+      "question": "Tais enunciados são a síntese de orientações reiteradamente assentadas pela Corte, cuja revisão deve ocorrer de forma gradual pelo próprio STF.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06056",
+      "subject": "Direito Constitucional",
+      "question": "Há que se destacar, porém, que o princípio da subsidiariedade aplica-se no contexto das ações do controle concentrado-abstrato de constitucionalidade.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06102",
+      "subject": "Direito Tributário",
+      "question": "I - O parcelamento e a transação são modalidades de extinção do crédito tributário.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06103",
+      "subject": "Direito Tributário",
+      "question": "II - A entrega de declaração na qual o contribuinte reconheça débito fiscal não constitui, por si só, o crédito tributário, haja vista a necessidade de confirmação posterior do fisco.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06390",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ocorre que, para as firmas em concorrência perfeita, a receita marginal é igual ao preço.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06407",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, a Concorrência Perfeita no mercado de trabalho (assim como no mercado de bens e serviços) é caracterizada por um equilíbrio nesse mercado, de modo que oferta e demanda se igualam.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-06410",
+      "subject": "Economia - Finanças Públicas",
+      "question": "A função oferta desse mercado é dada por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06418",
+      "subject": "Economia - Finanças Públicas",
+      "question": "A concorrência perfeita é um tipo de estrutura de mercado que se caracteriza por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06426",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Nesse cenário, o preço de equilíbrio de longo prazo nesse mercado é dado por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06428",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Não estamos interessados na situação onde nada é produzido, então ficamos com.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06433",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ele ocorre quando a inclinação da curva de custo médio é zero, ou seja, quando ela é horizontal.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06437",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então o monopolista não consegue igualar RMg e CMg quando a demanda é inelástica, pois a RMg é negativa.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-06470",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, qualquer que seja seu valor, quando a demanda é inelástica, teremos Receita Marginal negativa.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-06498",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Eles resolvem ir ao cinema e verificam que o preço do ingresso é metade do preço normal para eles.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06534",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Recebe esse nome porque é a produção que excede os salários, ou seja, o que sobra depois que são pagos os salários.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06570",
+      "subject": "Economia - Finanças Públicas",
+      "question": "A renda em uma economia aberta com governo, como a do enunciado é determinada por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06580",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Sabemos que, em uma economia fechada com governo (onde há impostos), o multiplicador de gastos é dado por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06601",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Os bens meritórios são caracterizados por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06604",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Conforme explicado por Varian, o Segundo Teorema do Bem-Estar estabelece que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06622",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Elas são consideradas falhas de mercado, pois os efeitos dessas interações não são refletidos nos preços, o que faz com que os custos e benefícios sociais não sejam totalmente assumidos por quem os produz ou consome.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06641",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ela se utiliza de políticas fiscais e monetárias para lidar com os ciclos recessivos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06714",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ela nos mostra que quando as alíquotas de impostos são altas o suficiente, um aumento adicional na alíquota de imposto pode levar a uma diminuição das receitas arrecadadas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06735",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, o governo determina um imposto (t) de R$2 sobre esse bem.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-06772",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Seria verdade se falasse que a poupança pública é positiva quando a arrecadação supera o consumo do governo.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06774",
+      "subject": "Economia - Finanças Públicas",
+      "question": "III - A principal diferença entre o resultado primário e o resultado operacional do governo consiste no fato de que, no primeiro, são computados os juros sobre a dívida pública e no segundo, não.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06813",
+      "subject": "Economia - Finanças Públicas",
+      "question": "A terceira função desse ativo é de ______________ que representa um denominador comum de valor, ou seja, representa o padrão para que as demais mercadorias expressem seus valores.",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-06872",
+      "subject": "Economia - Finanças Públicas",
+      "question": "O saldo da balança comercial (BC) é definido por.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-06877",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Recebem esse nome pois não têm por objetivo precípuo financiar o balanço de pagamentos.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06929",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ele vai é vender esses dólares para ter reais e pagar suas contas aqui no Brasil.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06930",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Ele também tem dólares e precisa (demanda) reais para adquirir as ações na Bolsa (agora B3).",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-06956",
+      "subject": "Economia - Finanças Públicas",
+      "question": "C - Correto, se o VPL é positivo é que a soma dos fluxos superou o investimento inicial.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06957",
+      "subject": "Economia - Finanças Públicas",
+      "question": "D - Errado, a taxa de retorno é dada pela TIR.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06958",
+      "subject": "Economia - Finanças Públicas",
+      "question": "D - Errado, essa é a TMA, pois é taxa mínima ou máxima, a TIR é apenas uma taxa que zera o VPL.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-06964",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Então, pelo critério da taxa interna de retorno, o projeto A é mais atraente do que o projeto B.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-06975",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Há duas questões que faltam ao gestor, calcular o Valor Presente Líquido dos projetos e saber qual é a taxa mínima de atratividade (custo de capital).",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-06999",
+      "subject": "Economia - Finanças Públicas",
+      "question": "Dessa forma é claro que, quanto mais distante, MENOR o fator.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07020",
+      "subject": "Economia - Finanças Públicas",
+      "question": "ESAF - Analista da Comissão de Valores Mobiliários/Arquivologia/2010 Mercados de bolsa e balcão são espécies de estruturas de negociação de valores mobiliários em que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-07028",
+      "subject": "Economia - Finanças Públicas",
+      "question": "ESAF - Inspetor da Comissão de Valores Mobiliários/2010 - ATUALIZADO Mercado de Bolsa e de balcão caracterizam-se por.",
+      "reasons": [
+        "complemento_truncado",
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-07111",
+      "subject": "Engenharia de Software",
+      "question": "Eles realmente possuem atributos e características que descrevem propriedades, comportamento, propósito, ou outros elementos de processo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07112",
+      "subject": "Engenharia de Software",
+      "question": "III - A modelagem é utilizada também para auxiliar as organizações a compreenderem seu próprio negócio, permitindo a identificação de problemas e melhorias.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-07115",
+      "subject": "Engenharia de Software",
+      "question": "Ele serve para representar graficamente fluxos de trabalho, mas não inclui diretrizes metodológicas para implementação ou automação.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07130",
+      "subject": "Engenharia de Software",
+      "question": "Eles determinam as condições sob as quais o fluxo seguirá por diferentes caminhos, baseado em regras de decisão, eventos ou outras condições específicas do processo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07138",
+      "subject": "Engenharia de Software",
+      "question": "A categoria Objetos de Fluxo contém elementos que definem o comportamento de um Processo de Negócio, tais como.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-07142",
+      "subject": "Engenharia de Software",
+      "question": "Uma notação muito usada para isto é o(a) ________________, padronizado(a) pelo OMG (Object Management Group).",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-07163",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Há praticamente consenso que empenho, liquidação e pagamento são estágios da execução da despesa.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-07194",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Eles são registrados para serem pagos no exercício subsequente.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07209",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Ambas caracterizam-se pela cessão de crédito orçamentário entre unidades orçamentárias ou unidades gestoras.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-07229",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Ele também destaca que a limitação de empenho é um instrumento de gestão orçamentária que previne o déficit, reforçando o equilíbrio das contas públicas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07231",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Responsabilidade fiscal é o eixo central da LRF e seus objetivos principais podem se resumir em.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-07258",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "Tal detalhamento permite um controle mais rigoroso das finanças públicas e facilita a análise dos compromissos assumidos pelo ente público.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07270",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "IV - os débitos de tesouraria.\" Logo, a dívida flutuante compreende obrigações de curto prazo, geralmente exigíveis dentro do exercício financeiro, como restos a pagar, depósitos e adiantamentos.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-07273",
+      "subject": "Finanças Públicas (Orçamento - LRF)",
+      "question": "II - refinanciar dívidas não contraídas junto à própria instituição concedente.” Logo, o correto é “desde que não se destinem a financiar, direta ou indiretamente, despesas correntes”.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-07301",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles permitem a análise rápida e intuitiva das informações, facilitando a tomada de decisões.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07400",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ele não é implementado sobre bancos de dados relacionais existentes, mas sim em bancos de dados multidimensionais, que são mais adequados para manipular grandes volumes de dados e atributos complexos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07411",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles são projetados para facilitar a análise e relatórios específicos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07413",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Elas são organizadas para facilitar a navegação e análise pelos usuários, sendo simétricas e voltadas à usabilidade.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07496",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "II - Os valores ruidosos referem-se a modificações dos valores originais e que, portanto consistem em erros de medidas ou em valores consideravelmente diferentes da maioria dos outros valores Aula 08 - Prof.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-07500",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ela se concentra em etapas como entendimento do negócio, preparação dos dados e modelagem, mas a validação cruzada é uma técnica específica de avaliação de modelos, não uma etapa da metodologia.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07576",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Então, para identificar padrões que se repetem nos dados de votos e eleitores, o algoritmo mais indicado mesmo é o FP-Growth.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-07617",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "L-Means não é um algoritmo reconhecido na literatura de aprendizado de máquina.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-07647",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ele não controla a criação dos clusters nem define a métrica de distância, que são escolhidas previamente pelo algoritmo.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07662",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles são capazes de gerar texto, traduzir, responder perguntas, resumir conteúdos e realizar diversas tarefas relacionadas à linguagem natural.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07745",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Há diferentes famílias de algoritmos, como os hierárquicos, os que permitem sobreposição (soft/fuzzy) e os probabilísticos (baseados em modelos).",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-07786",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Elas têm processo de previsão completamente transparente e lidam facilmente com diversos atributos numéricos, assim como atributos categóricos, podendo até mesmo classificar dados sem atributos definidos.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07802",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Ele não analisa os atributos dos dados, apenas observa qual é a classe mais frequente (a moda) no conjunto de treinamento e classifica todas as instâncias com essa classe.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07813",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Elas são amplamente utilizadas em dados espectrais para visualizar padrões, remover redundâncias e identificar características relevantes em grandes volumes de dados, como na caracterização de substâncias.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-07895",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "A unidade da Federação com a maior frequência relativa de corrupção é o estado E.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-07985",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "As aplicações de bigdata caracterizam-se exclusivamente pelo grande volume de dados armazenados em tabelas relacionais.",
+      "reasons": [
+        "sem_verbo_principal_detectavel"
+      ]
+    },
+    {
+      "id": "V11-08066",
+      "subject": "Inteligência Artificial e Ciência de Dados",
+      "question": "Eles são mais adequados para dados semi-estruturados e aplicações que não exigem transações complexas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08166",
+      "subject": "LTE",
+      "question": "Elas são definidas mediante deliberação dos Estados e do Distrito Federal e fixadas em Convênio ICMS.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08175",
+      "subject": "LTE",
+      "question": "Então para sabermos basta vermos quem é o proprietário no momento do fato gerador.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-08253",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Ela se aplica somente aos listados nos Anexos VII (alimentos) e VIII (higiene e limpeza) da LC 214/25.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08267",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Ela também se aplica à administração pública direta, autarquias e fundações públicas de qualquer ente federativo, incluindo estados e municípios.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08283",
+      "subject": "Reforma (EC nº 1322023 e LC nº 2142025)",
+      "question": "Elas permitem relacionar o registro fiscal à documentação da operação com o exterior.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08492",
+      "subject": "Segurança da Informação e Redes",
+      "question": "A lacuna do texto é corretamente preenchida com.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-08495",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Então nosso foco tem que ser em Bráulio, com vistas a garantir que somente ele seja capaz de ler a mensagem.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-08509",
+      "subject": "Segurança da Informação e Redes",
+      "question": "O núcleo do esquema X.509 é o certificado de _________ associado a cada usuário.",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-08510",
+      "subject": "Segurança da Informação e Redes",
+      "question": "O próprio ________ não é responsável pela criação das chaves públicas ou pela função de certificação.",
+      "reasons": [
+        "lacuna_ou_elipse"
+      ]
+    },
+    {
+      "id": "V11-08512",
+      "subject": "Segurança da Informação e Redes",
+      "question": "II – A validade do A3 é de 36 meses, enquanto o A1 é até 12 meses.",
+      "reasons": [
+        "item_de_esquema"
+      ]
+    },
+    {
+      "id": "V11-08513",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Diferente do A3, que depende de senha para acionar o certificado via TOKEN.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-08524",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Elas são projetadas para serem independentes umas das outras, de forma que falhas em uma zona de disponibilidade não afetem as outras zonas na mesma região.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08567",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ambiente físico proposto para o trabalho remoto que inclui ambientes de trabalho não tradicionais, como aqueles referidos como.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    },
+    {
+      "id": "V11-08580",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ela se concentra no cenário geral de ameaças é mais apropriada para análises macroscópicas e é usada para definir a consequência e a gravidade de um determinado cenário.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08589",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Então percebam que a norma não veda em qualquer hipótese, mas abre espaço para justificativa.",
+      "reasons": [
+        "prefixo_contextual_alternativa"
+      ]
+    },
+    {
+      "id": "V11-08595",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Existem duas abordagens de referência para essa etapa de identificação dos riscos, mas repito é uma referência e não uma obrigatoriedade.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-08610",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Tal ação considera riscos que são elevados e quando os custos de implementação de outras opções de tratamento do risco excederem os benefícios.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08616",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Pode-se argumentar que é necessário reter riscos porque os benefícios que acompanham os riscos são uma importante oportunidade de negócio, ou porque o custo de modificação de risco é muito alto.",
+      "reasons": [
+        "sujeito_nao_autonomo"
+      ]
+    },
+    {
+      "id": "V11-08624",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Ele faz parte da estratégia maior do PCN - plano de continuidade de negócios - e é caracterizado pela definição das prioridades e sistemas e informações críticas.",
+      "reasons": [
+        "referente_dependente_contexto"
+      ]
+    },
+    {
+      "id": "V11-08634",
+      "subject": "Segurança da Informação e Redes",
+      "question": "Um plano que estabelece uma meta RTO de 24 horas e um RPO de 5 horas significaria que.",
+      "reasons": [
+        "complemento_truncado"
+      ]
+    }
+  ]
+}
