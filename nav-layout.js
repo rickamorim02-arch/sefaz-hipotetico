@@ -1,0 +1,7 @@
+(function(){
+function openPanel(id){if(typeof window.tab==='function'){window.tab(id);return}document.querySelectorAll('.app>main,.app>section').forEach(e=>e.classList.add('hidden'));document.getElementById('feedFilter')?.classList.add('hidden');document.querySelectorAll('nav button').forEach(b=>b.classList.remove('on'));document.getElementById(id)?.classList.remove('hidden');window.scrollTo(0,0)}
+function card(id,icon,title,text,target){if(document.getElementById(id))return;const more=document.getElementById('more');if(!more)return;const d=document.createElement('div');d.id=id;d.className='card';d.innerHTML='<h3>'+icon+' '+title+'</h3><p>'+text+'</p><button class="primary">Abrir '+title.toLowerCase()+'</button>';d.querySelector('button').onclick=()=>openPanel(target);more.appendChild(d)}
+function removeSimulado(){const more=document.getElementById('more');if(!more)return;[...more.querySelectorAll('.card')].forEach(c=>{const h=c.querySelector('h3');if(h&&h.textContent.includes('Simulado'))c.remove()})}
+function init(){const nav=document.querySelector('.app nav'),more=document.getElementById('more');if(!nav||!more)return false;removeSimulado();document.getElementById('nsu')?.remove();document.getElementById('nst')?.remove();card('moreSubjects','📚','Matérias','Consulte a lista e pesquise as disciplinas do banco.','subjects');card('moreStats','📊','Desempenho','Veja respondidas, acertos, aproveitamento e favoritas.','stats');return true}
+let n=0,t=setInterval(()=>{n++;if(init()||n>160)clearInterval(t)},50);
+})();
