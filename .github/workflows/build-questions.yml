@@ -1,0 +1,40 @@
+name: Gerar banco inicial de Shorts V2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/build_questions.py'
+      - 'reading-manifest.json'
+      - 'reading-*.json'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gerar questões rastreáveis
+        run: python tools/build_questions.py . questions.json
+      - name: Auditar banco
+        run: |
+          python - <<'PY'
+          import json
+          q=json.load(open('questions.json',encoding='utf-8'))
+          assert len(q)==255
+          assert len({x['s'] for x in q})==19
+          assert len({x['id'] for x in q})==255
+          assert all(x['q'] and x['c'] and x['lesson'] and x['source'] for x in q)
+          assert all(x['a'] is True for x in q)
+          print('APROVADO: 255 questões-fonte; 19 disciplinas; IDs únicos; rastreabilidade completa')
+          PY
+      - name: Publicar banco
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add questions.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Publica banco inicial auditado de 255 Shorts V2'
+          git push
