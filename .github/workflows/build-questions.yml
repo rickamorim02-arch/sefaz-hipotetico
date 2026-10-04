@@ -5,6 +5,7 @@ on:
     paths:
       - 'tools/build_questions.py'
       - 'tools/shard_questions.py'
+      - 'tools/audit_restructure_questions.py'
       - 'reading-manifest.json'
       - 'reading-*.json'
 permissions:
@@ -39,11 +40,13 @@ jobs:
             d=json.load(open(p['file'],encoding='utf-8')); assert len(d)==p['count']<=500; total+=len(d)
           assert total==m['total']; print('FRAGMENTOS APROVADOS:',len(m['parts']),'total:',total)
           PY
-      - name: Publicar banco fragmentado
+      - name: Medir estrutura sintática de toda a população
+        run: python tools/audit_restructure_questions.py .
+      - name: Publicar banco fragmentado e relatório estrutural
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add questions.json questions-manifest.json questions-data
+          git add questions.json questions-manifest.json questions-data structural-audit.json
           git diff --cached --quiet && exit 0
-          git commit -m 'Publica banco fragmentado para carregamento progressivo'
+          git commit -m 'Publica banco e auditoria estrutural censitária'
           git push
