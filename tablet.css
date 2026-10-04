@@ -1,0 +1,37 @@
+/* Otimização global do feed: questões fora da tela não precisam ser renderizadas imediatamente. */
+.q{content-visibility:auto;contain-intrinsic-size:auto 100vh}
+/* Layout tablet: regras abaixo só entram em telas >= 700px. O celular permanece intacto. */
+@media (min-width:700px){
+  body{font-size:16px}
+  .app{max-width:1000px}
+  .top,.feedfilter,nav{width:min(1000px,100%)}
+  .top{padding:16px 22px;align-items:center}
+  .top b{font-size:18px}
+  .top small{font-size:14px}
+  .feedfilter{top:54px;padding:9px 22px;gap:10px}
+  .feedfilter button{padding:11px 10px;font-size:14px}
+  .q{padding:132px 24px 98px;max-width:950px;margin:0 auto;justify-content:center}
+  .q h1{font-size:27px;line-height:1.28;max-width:920px;margin-bottom:22px}
+  .tag{font-size:14px}
+  .topic{font-size:16px;margin-bottom:18px}
+  .opt{padding:15px 18px;margin:7px 0;font-size:16px;line-height:1.32}
+  .feedback{padding:17px 19px;font-size:16px;line-height:1.42}
+  .star{font-size:15px;padding:10px}
+  .panel{padding:82px 28px 100px;max-width:950px;margin:0 auto}
+  .panel h2{font-size:27px}
+  .card{padding:17px;margin:12px 0}
+  .grid{gap:13px}
+  input,textarea,select{padding:13px;font-size:16px}
+  button.primary{padding:15px;font-size:16px}
+  nav{padding:9px 18px}
+  nav button{font-size:13px;min-width:72px;padding:5px 8px}
+  .reaction{margin:7px 0 12px}
+}
+@media (min-width:1000px) and (orientation:landscape){
+  .app{max-width:1080px}
+  .top,.feedfilter,nav{width:min(1080px,100%)}
+  .q{max-width:1020px;padding-left:28px;padding-right:28px}
+  .panel{max-width:1020px}
+  .q h1{font-size:28px;line-height:1.27;max-width:980px}
+  .opt{font-size:16px;padding:14px 18px}
+}
