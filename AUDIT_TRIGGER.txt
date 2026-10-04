@@ -1,4 +1,4 @@
-Disparo da auditoria estrutural censitária.
+Disparo do banco estruturalmente aprovado.
 Data: 2026-10-04
-Objetivo: executar 20 auditores sobre toda a população, gerar candidato isolado, auditar novamente o candidato e comparar resultados sem substituir o banco publicado.
-Tentativa: 4 — solução integrada ao workflow reconhecido.
+Objetivo: gerar questions-approved.json, dispensar os reprovados e validar o banco resultante com 20 auditores, exigindo zero falhas.
+Tentativa: 5 — workflow existente atualizado e reconhecido.
