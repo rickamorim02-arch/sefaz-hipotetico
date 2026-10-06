@@ -1,4 +1,4 @@
-(function(){const READY='sefaz-hipotetico-offline-ready-v19';
+(function(){const READY='sefaz-hipotetico-offline-ready-v20';
 function state(){const e=document.getElementById('offlineState');if(e)e.textContent=navigator.onLine?'🟢 Online':'🟠 Offline'}
 async function register(){if(!('serviceWorker'in navigator))return null;try{return await navigator.serviceWorker.register('./sw.js?v=19',{scope:'./',updateViaCache:'none'})}catch(e){return null}}
 window.prepareOffline=async function(auto=false){const b=document.getElementById('offlinePrepare'),msg=document.getElementById('offlineMsg');if(b){b.disabled=true;b.textContent='Baixando banco…'}if(msg)msg.textContent='Armazenando as 8.250 questões neste aparelho…';try{const reg=await register();await reg?.update();const ready=await navigator.serviceWorker.ready,sw=navigator.serviceWorker.controller||ready.active||reg?.active||reg?.waiting;if(!sw)throw Error();sw.postMessage({type:'PREPARE_OFFLINE'})}catch(e){if(msg)msg.textContent='Não foi possível preparar agora.';if(b){b.disabled=false;b.textContent='📥 Baixar para uso offline'}}};
