@@ -1,8 +1,1 @@
-{
-  "name": "Roleta dos Preguiçosos",
-  "short_name": "Roleta",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#06131f",
-  "theme_color": "#071b2d"
-}
+{"name":"Roleta dos Preguiçosos","short_name":"Roleta","id":"./","start_url":"./","scope":"./","display":"standalone","orientation":"portrait","background_color":"#06131f","theme_color":"#071b2d","description":"Aplicativo offline de estudo em formato de Shorts para concursos","categories":["education"]}
