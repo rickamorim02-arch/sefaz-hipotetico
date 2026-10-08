@@ -60,3 +60,15 @@
   #simBody .action{padding:8px}
   #simBody p{margin:6px 0}
 }
+
+/* Celular deitado: ocupar toda a area web, sem coluna estreita central. */
+@media (orientation:landscape) and (max-height:700px){
+ html,body{width:100%;margin:0;overflow-x:hidden}
+ .app{width:100%!important;max-width:100%!important;margin:0!important;min-height:100dvh}
+ .top,.feedfilter,nav{left:0!important;right:0!important;width:100%!important;max-width:100%!important}
+ .q{width:100%!important;max-width:none!important;margin:0!important;padding-left:clamp(12px,2vw,28px)!important;padding-right:clamp(12px,2vw,28px)!important}
+ .q h1{max-width:none!important}
+ .panel{width:100%!important;max-width:none!important;margin:0!important;padding-left:clamp(12px,2vw,28px)!important;padding-right:clamp(12px,2vw,28px)!important}
+ #cycleTimer{width:100%!important;max-width:none!important}
+ #simBody{max-width:100%!important}
+}
