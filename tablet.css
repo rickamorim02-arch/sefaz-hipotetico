@@ -35,3 +35,28 @@
   .q h1{font-size:28px;line-height:1.27;max-width:980px}
   .opt{font-size:16px;padding:14px 18px}
 }
+
+/* Layout horizontal para celular com PWA instalado. */
+@media (orientation:landscape) and (max-height:600px){
+  .app{max-width:none;width:100%;min-height:100dvh}
+  .top,.feedfilter,nav{width:100%;max-width:none}
+  .top{padding:5px 16px;min-height:35px;align-items:center}
+  .top small{font-size:10px}
+  .feedfilter{top:36px;padding:3px 12px}
+  .feedfilter button{padding:5px 4px}
+  .feed{height:100dvh}
+  .q{min-height:100dvh;padding:76px 20px 48px;max-width:980px;margin:auto;justify-content:center}
+  .q h1{font-size:clamp(15px,2.7vw,21px);line-height:1.25;max-height:30dvh;overflow:auto;margin:5px 0}
+  .topic{margin:2px 0 5px}
+  .opt{padding:7px 12px;margin:3px 0}
+  .feedback{max-height:22dvh;padding:8px;overflow:auto}
+  .panel{padding:65px 18px 60px;max-width:980px;margin:auto}
+  nav{padding:3px 8px}
+  nav button{font-size:10px}
+  #simModal{padding:8px 18px!important}
+  #simBody{max-width:850px!important;padding-top:0!important}
+  #simBody h2{font-size:17px!important;margin:5px 0}
+  #simBody .opt{display:inline-block;width:48%;margin-right:1%}
+  #simBody .action{padding:8px}
+  #simBody p{margin:6px 0}
+}
