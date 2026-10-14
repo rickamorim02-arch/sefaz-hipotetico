@@ -1,8 +1,8 @@
 // Feed com retomada de posição e revisão inteligente.
-(()=>{let pos=Number(localStorage.getItem('sefaz-hipotetico-feed-pos')||0),mode=localStorage.getItem('sefaz-hipotetico-feed-mode')||'pending',qById=new Map(),indexedLength=0,rendering=false,navigating=false,wheelLock=false;
+(()=>{let pos=0,mode='all',qById=new Map(),indexedLength=0,rendering=false,navigating=false,wheelLock=false;
 function indexNew(){const a=window.Q||[];if(a.length<indexedLength){qById.clear();indexedLength=0}for(let i=indexedLength;i<a.length;i++)qById.set(String(a[i].id),a[i]);indexedLength=a.length}
 function safeId(s){return String(s||'').replace(/['"]/g,'')}
-function eligible(){const v=vistos(),out=[];for(const q of window.Q||[]){if(window.questionAllowed&&!window.questionAllowed(q))continue;const marked=!!v[q.id];if(mode==='all'||mode==='smart'||(mode==='review'?!!window.state().fav[q.id]:(mode==='resolved'?marked:!marked)))out.push(q)}return out}
+function eligible(){const v=vistos(),out=[];for(const q of window.Q||[]){if(window.questionAllowed&&!window.questionAllowed(q))continue;const marked=!!v[q.id];if(mode==='all'||(mode==='review'?!!window.state().fav[q.id]:(mode==='resolved'?marked:!marked)))out.push(q)}return out}
 function persist(){localStorage.setItem('sefaz-hipotetico-feed-pos',String(pos));localStorage.setItem('sefaz-hipotetico-feed-mode',mode)}
 function vistos(){try{return JSON.parse(localStorage.getItem('roleta-vistos-v1')||'{}')}catch(_){return {}}}window.toggleVisto=function(id){const v=vistos();v[id]=!v[id];localStorage.setItem('roleta-vistos-v1',JSON.stringify(v));window.render(false);window.stats?.();window.dispatchEvent(new CustomEvent('declaration-visto',{detail:{id,marked:!!v[id]}}))};
 function feedbackHtml(q,correct){if(correct)return '<b>✅ Acertou</b>';return '<b>❌ Errou</b><p><strong>Resposta correta: '+(Boolean(q.a??q.answer)?'CERTO':'ERRADO')+'.</strong></p><p>'+window.esc(q.c||q.comment||'Comentário ainda não disponível.')+'</p>'}
