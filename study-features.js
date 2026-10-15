@@ -2,8 +2,9 @@
 function subjects(){return [...new Set((window.getLocalDeclarations?.()||[]).map(subjectOf))].sort((a,b)=>a.localeCompare(b,'pt-BR',{sensitivity:'base'}))}
 function cfg(){try{return Object.assign({subjects:[],goal:100,sim:false,simN:20},JSON.parse(localStorage.getItem(CFG)||'{}'))}catch(_){return{subjects:[],goal:100,sim:false,simN:20}}}function reconcileSubjects(){const c=cfg(),valid=new Set(subjects());const next=c.subjects.filter(x=>valid.has(x));if(next.length!==c.subjects.length){c.subjects=next;save(c)}}
 window.addEventListener('imports-changed',reconcileSubjects);
-function save(x){localStorage.setItem(CFG,JSON.stringify(x));window.dispatchEvent(new CustomEvent('study-config-change',{detail:x}))}
-window.studyConfig=cfg;window.questionAllowed=q=>{const c=cfg(),s=subjectOf(q);return !c.subjects.length||c.subjects.includes(s)};
+let subjectFilterCache=null;
+function save(x){subjectFilterCache=new Set(x.subjects||[]);window.invalidateShortFilter?.();localStorage.setItem(CFG,JSON.stringify(x));window.dispatchEvent(new CustomEvent('study-config-change',{detail:x}))}
+window.studyConfig=cfg;window.questionAllowed=q=>{const selected=subjectFilterCache||(subjectFilterCache=new Set(cfg().subjects||[]));return !selected.size||selected.has(subjectOf(q))};
 window.setDailyGoal=()=>{let c=cfg(),n=Number(prompt('Meta de declarações vistas:',c.goal));if(Number.isFinite(n)&&n>0){c.goal=Math.round(n);save(c);drawGoal()}};
 function todayAnswers(){const s=window.state(),start=new Date();start.setHours(0,0,0,0);try{return Object.values(JSON.parse(localStorage.getItem('roleta-vistos-v1')||'{}')).filter(Boolean).length}catch(_){return 0}}
 function drawGoal(){const c=cfg(),n=todayAnswers(),e=document.getElementById('goalInfo');if(e)e.innerHTML='<b>🎯 Meta diária</b><p>'+n+' / '+c.goal+' declarações ('+Math.min(100,Math.round(n/c.goal*100))+'%)</p><button class="action" onclick="setDailyGoal()">Alterar meta</button>'}
