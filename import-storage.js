@@ -1,0 +1,15 @@
+(()=>{'use strict';
+const LEGACY='roleta-importados-v1',DB='roleta-bancos-v1',STORE='bancos';let cache=[],ready=false;
+const open=()=>new Promise((resolve,reject)=>{if(!window.indexedDB)return reject(Error('IndexedDB indisponível'));const r=indexedDB.open(DB,1);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains(STORE))r.result.createObjectStore(STORE,{keyPath:'id'})};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)});
+async function transact(mode,fn){const db=await open();try{return await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,mode),store=tx.objectStore(STORE);let result;try{result=fn(store)}catch(e){reject(e);return}tx.oncomplete=()=>resolve(result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error)})}finally{db.close()}}
+const all=async()=>{const db=await open();try{return await new Promise((resolve,reject)=>{const r=db.transaction(STORE,'readonly').objectStore(STORE).getAll();r.onsuccess=()=>resolve(r.result||[]);r.onerror=()=>reject(r.error)})}finally{db.close()}};
+const refresh=async()=>{const banks=await all();cache=banks.flatMap(b=>b.records||[]);window.dispatchEvent(new Event('imports-changed'));return cache};
+async function init(){try{let banks=await all();if(localStorage.getItem(LEGACY)!==null){const old=JSON.parse(localStorage.getItem(LEGACY)||'[]');if(old.length){const existing=new Set(banks.flatMap(b=>(b.records||[]).map(q=>String(q.id))));const unseen=old.filter(q=>!existing.has(String(q.id)));if(unseen.length){const groups=new Map();for(const q of unseen){const key=q.importBatch||'legacy:'+String(q.source||'Documento sem nome');if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}await transact('readwrite',st=>{for(const [id,records] of groups)st.put({id,name:records[0].source||'Documento sem nome',records})})}}banks=await all();const stored=banks.flatMap(b=>b.records||[]);if(old.every(q=>stored.some(x=>String(x.id)===String(q.id))))localStorage.removeItem(LEGACY)}
+cache=banks.flatMap(b=>b.records||[]);ready=true;return cache}catch(e){console.error('Armazenamento de bancos:',e);try{cache=JSON.parse(localStorage.getItem(LEGACY)||'[]')}catch(_){}ready=true;return cache}}
+window.importStoreReady=init();
+window.getLocalDeclarations=()=>cache;
+window.importStoreList=all;
+window.importStoreSave=async(bank,replace)=>{await window.importStoreReady;if(replace){await transact('readwrite',st=>{st.clear();st.put(bank)})}else await transact('readwrite',st=>st.put(bank));await refresh();return cache.length};
+window.importStoreDelete=async id=>{await window.importStoreReady;await transact('readwrite',st=>st.delete(id));await refresh();return cache.length};
+window.importStoreClear=async()=>{await window.importStoreReady;await transact('readwrite',st=>st.clear());await refresh();return 0};
+})();
