@@ -3,7 +3,9 @@ const KEY='roleta-importados-v1';let pending=[],filename='';
 const el=id=>document.getElementById(id);
 function status(t){if(el('importStatus'))el('importStatus').textContent=t}
 function parse(text){const lines=text.replace(/\r\n?/g,'\n').split('\n');const out=[];let current=null,skipped=0,article='',section='',history=false;
-const legal=lines.some(line=>/^\s*Art\.\s*\d+[º°o]?(?:-[A-Z])?(?:\s|\.|-)/i.test(line));
+const articleCount=lines.filter(line=>/^\\s*Art\\.\\s*\\d+[º°o]?(?:-[A-Z])?(?:\\s|\\.|-)/i.test(line)).length;
+const lawStructure=lines.filter(line=>/^\\s*(?:CAPÍTULO|SEÇÃO|SUBSEÇÃO|TÍTULO|LIVRO)\\s+(?:[IVXLCDM]+|\\d+|ÚNICO)/i.test(line)).length;
+const legal=articleCount>=5&&(articleCount>=lines.length/90||lawStructure>=3);
 if(legal){
 const flush=()=>{if(current){current.text=current.text.trimEnd();if(current.text)out.push(current)}current=null};
 for(const original of lines){const line=original.trim().replace(/^⟪OLD⟫/,'');if(!line)continue;const old=original.trim().startsWith('⟪OLD⟫');
@@ -30,7 +32,7 @@ if(section){flush();topic=line;subtopic='';continue}
 if(bullet||numbered){flush();const body=(bullet?bullet[2]:numbered[2]).trim();entry={num:String(out.length+1),text:body,kind:'resumo',section:[topic,subtopic].filter(Boolean).join(' — ')};continue}
 if(entry){entry.text+=' '+line}else if(line.length<110&&!/^(?:Elabore|Resumo Estruturado)/i.test(line)){subtopic=line}else{skipped++}}
 flush();return {items:out.filter(x=>x.text.length>8),skipped,legal:false,lecture:true}}
-for(const line of lines){const m=line.match(/^\s*(\d{1,5})[.)\-:]\s+(.+)$/);if(m){if(current)out.push(current);current={num:m[1],text:m[2]}}else if(current){current.text+='\n'+line}else if(line.trim()){skipped++}}if(current)out.push(current);
+if(lines.length>100){const result=[];let current='',heading='',ignored=0;const flush=()=>{const t=current.trim();if(t.length>=35)result.push({num:String(result.length+1),text:t,kind:'resumo',section:heading});else if(t)ignored++;current=''};for(const raw of lines){const line=raw.trim();if(!line){flush();continue}if(/^(?:página|page)\\s*\\d+\\s*(?:de|\\/)\\s*\\d+$/i.test(line)){ignored++;continue}if(line.length<105&&/^(?:CAPÍTULO|UNIDADE|AULA|MÓDULO|TEMA|SEÇÃO|PARTE)\\b/i.test(line)){flush();heading=line;continue}if(current.length+line.length>850)flush();current+=(current?' ':'')+line}flush();return {items:result,skipped:ignored,legal:false,lecture:true}}\nfor(const line of lines){const m=line.match(/^\s*(\d{1,5})[.)\-:]\s+(.+)$/);if(m){if(current)out.push(current);current={num:m[1],text:m[2]}}else if(current){current.text+='\n'+line}else if(line.trim()){skipped++}}if(current)out.push(current);
 return {items:out.map(x=>({num:x.num,text:x.text.trimEnd()})),skipped,legal:false}}
 async function lib(url,check){if(check())return;await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url;s.onload=resolve;s.onerror=()=>reject(Error('Biblioteca indisponível; conecte à internet.'));document.head.append(s)});if(!check())throw Error('Falha ao carregar leitor')}
 async function readFile(file){const ext=file.name.split('.').pop().toLowerCase();if(['txt','text','md'].includes(ext))return file.text();
